@@ -698,7 +698,7 @@ function onCardClick(tmdbId, type) {
   
   if (type === 'movie') {
     // Apri direttamente in una nuova scheda
-    const url = `https://vixsrc.to/movie/${item.tmdb_id}`;
+    const url = `https://vixsrc.to/movie/${item.tmdb_id}?lang=it`;
     window.open(url, '_blank');
   } else {
     // Per le serie TV, mostra il modal per scegliere stagione/episodio
