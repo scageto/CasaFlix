@@ -552,12 +552,12 @@ async function enrichAllWithTMDB() {
     const item = allItems[i];
     try {
       // Prima prova come movie
-      let endpoint = `${TMDB_API}/movie/${item.tmdb_id}?api_key=${tmdbKey}&language=it-IT`;
+      let endpoint = `${TMDB_API}/movie/${item.tmdb_id}?api_key=${tmdbKey}?lang=it`;
       let r = await fetch(endpoint);
       
       if (!r.ok) {
         // Prova come serie TV
-        endpoint = `${TMDB_API}/tv/${item.tmdb_id}?api_key=${tmdbKey}&language=it-IT`;
+        endpoint = `${TMDB_API}/tv/${item.tmdb_id}?api_key=${tmdbKey}?lang=it`;
         r = await fetch(endpoint);
         if (!r.ok) continue;
         
