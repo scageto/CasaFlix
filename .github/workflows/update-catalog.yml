@@ -1,0 +1,48 @@
+name: Update catalog
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 4 * * 1'  # Mondays 04:00 UTC
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Restore TMDB response cache
+        uses: actions/cache@v4
+        with:
+          path: data/.cache.json
+          key: catalog-cache-v1-${{ github.run_id }}
+          restore-keys: |
+            catalog-cache-v1-
+
+      - name: Build catalog
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: python build_catalog.py
+
+      - name: Commit changes if any
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- data/catalog.json; then
+            echo "No catalog changes - skipping commit."
+            exit 0
+          fi
+          git add data/catalog.json
+          git commit -m "data: weekly catalog refresh"
+          git push
