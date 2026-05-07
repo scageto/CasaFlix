@@ -249,6 +249,8 @@ def build(args) -> int:
                 if i % 100 == 0 or i == total:
                     print(f"[tmdb] {kind} progress: {i}/{total} (ok={ok} skipped={skipped} cached={cached})", flush=True)
         print(f"[tmdb] {kind}: {ok} ok, {skipped} skipped, {cached} from cache", flush=True)
+        # Sort newest first; items missing year sink to the bottom.
+        items.sort(key=lambda it: it.get("year") or -1, reverse=True)
         result[kind] = items
 
     out = {

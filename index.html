@@ -425,8 +425,9 @@ async function loadCatalog() {
     const r = await fetch('data/catalog.json', { cache: 'no-cache' });
     if (!r.ok) throw new Error('HTTP ' + r.status);
     const data = await r.json();
-    catalogs.movie = (data.movie || []).map(it => ({ ...it, tmdb_id: String(it.tmdb_id), type: 'movie' }));
-    catalogs.tv    = (data.tv    || []).map(it => ({ ...it, tmdb_id: String(it.tmdb_id), type: 'tv'    }));
+    const byYearDesc = (a, b) => (b.year || 0) - (a.year || 0);
+    catalogs.movie = (data.movie || []).map(it => ({ ...it, tmdb_id: String(it.tmdb_id), type: 'movie' })).sort(byYearDesc);
+    catalogs.tv    = (data.tv    || []).map(it => ({ ...it, tmdb_id: String(it.tmdb_id), type: 'tv'    })).sort(byYearDesc);
   } catch (err) {
     console.error('Catalog load failed:', err);
     showCatalogError();
