@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T20:35:50Z",
+  "generated_at": "2026-05-11T07:49:44Z",
   "movie": [
     {
       "tmdb_id": 1191876,
@@ -15,13 +15,57 @@
       "runtime": 92
     },
     {
+      "tmdb_id": 1330021,
+      "title": "Creature luminose",
+      "year": 2026,
+      "overview": "In questo dramma tratto dall'omonimo bestseller, una vedova lavora di notte all'acquario di una cittadina e stringe amicizia con un polpo intelligente e un ragazzo alla deriva.",
+      "poster": "https://image.tmdb.org/t/p/w342/8pUkU7t4MhfIaxbSPYeRTo96jdl.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/1yw8C3xPzrliGpQp0qHID7F1zOT.jpg",
+      "vote": 8.0,
+      "genres": [
+        "Dramma",
+        "Mistero"
+      ],
+      "runtime": 114
+    },
+    {
+      "tmdb_id": 1317448,
+      "title": "Non è un paese per single",
+      "year": 2026,
+      "overview": "In un’idilliaca cittadina toscana, Belvedere in Chianti, tutti sono in coppia o in cerca dell’anima gemella, tranne Elisa (Matilde Gioli), madre single che gestisce la tenuta Le Giuggiole. Il ritorno in paese di Michele (Cristiano Caccamo), amico d’infanzia che aveva perso di vista da anni, sconvolge la sua vita e risveglia sentimenti che credeva ormai dissolti per sempre.",
+      "poster": "https://image.tmdb.org/t/p/w342/3BsaBkOalMIRMwNE6OxFUGqrnEB.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/bWvGtxd3a6wW7ocQPlYza3ycpxk.jpg",
+      "vote": 6.8,
+      "genres": [
+        "Romance",
+        "Commedia"
+      ],
+      "runtime": 103
+    },
+    {
+      "tmdb_id": 1673194,
+      "title": "A casa dei Loud: Avventura in Europa",
+      "year": 2026,
+      "overview": "I Loud vanno in Europa: assisteranno a una cerimonia d'investitura a Londra, cercheranno la pizza migliore in Italia, passeranno una notte in un castello inquietante in Transilvania, scieranno sulle Alpi svizzere e viaggeranno nell'antica Grecia!",
+      "poster": "https://image.tmdb.org/t/p/w342/8k3a1UugkgWEWgiink1WWwhMq5x.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/1Z2SiVpdmo9rtdRKwfGQsKLAnFu.jpg",
+      "vote": null,
+      "genres": [
+        "Famiglia",
+        "Animazione",
+        "Avventura",
+        "Commedia"
+      ],
+      "runtime": 66
+    },
+    {
       "tmdb_id": 1630423,
       "title": "เลือดรักนักฆ่า",
       "year": 2026,
-      "overview": "Hunted for her rare blood type, a caged woman vows to fight alongside the assassin she loves to protect their future when an old enemy resurfaces.",
+      "overview": "",
       "poster": "https://image.tmdb.org/t/p/w342/b1VNnA0ewb6F0hccCpPpXD8c8oT.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/d1TupF3vMdQ6BhnADkFiNf0ZBOo.jpg",
-      "vote": 8.0,
+      "vote": null,
       "genres": [
         "Azione",
         "Dramma",
@@ -34,9 +78,9 @@
       "title": "Gary",
       "year": 2026,
       "overview": "Due amici partono per un viaggio di lavoro, ma la trasferta si rivela piena di imprevisti. Mentre cercano di risolvere i problemi e legano con la gente del posto, questa esperienza li segna profondamente e li porta a vedere la loro amicizia sotto una nuova luce.",
-      "poster": "https://image.tmdb.org/t/p/w342/jtMuKwlOl4IzpB5fWn9RT9uyy6E.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/zUG5bHcBu3BVMPuF713jvj15431.jpg",
-      "vote": 9.0,
+      "poster": "https://image.tmdb.org/t/p/w342/qOOhoxvUDe7lWpPEeh0gFBYpjFe.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/fIAOCnkxqgfdVERDk9lqt9J1nTm.jpg",
+      "vote": 8.3,
       "genres": [
         "Dramma",
         "Commedia"
@@ -63,7 +107,7 @@
       "year": 2026,
       "overview": "Una piccola creatura del bosco e un maestoso uccello si scambiano improvvisamente di corpo e devono fare squadra per sopravvivere all'avventura più folle della loro vita.",
       "poster": "https://image.tmdb.org/t/p/w342/uCRXsCpMZJDrxAAXJC2xHOz6r9T.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/s2dTfKNdtbfYz4dRIY0yaUtrZ3.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/wpabGmGA3IaJNGudbzGritmR8Km.jpg",
       "vote": 8.0,
       "genres": [
         "Avventura",
@@ -109,7 +153,7 @@
       "overview": "Il film racconta la vita di Michael Jackson oltre la musica, tracciando il suo viaggio dalla scoperta del suo straordinario talento come protagonista dei Jackson Five, all'artista visionario la cui ambizione creativa ha alimentato un'incessante ricerca per diventare il più grande intrattenitore del mondo. Evidenziando sia la sua vita fuori dal palco che alcune delle performance più iconiche degli inizi della sua carriera da solista, il film offre al pubblico un posto in prima fila a Michael Jackson come mai prima d'ora. È qui che inizia la sua storia.",
       "poster": "https://image.tmdb.org/t/p/w342/3Qud19bBUrrJAzy0Ilm8gRJlJXP.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/xBT0oNq6rsTFv4SxG5uGRIEOrq6.jpg",
-      "vote": 7.5,
+      "vote": 7.6,
       "genres": [
         "Musica",
         "Dramma"
@@ -123,7 +167,7 @@
       "overview": "Un ex cavaliere olimpico accoglie una nuova allieva di dressage nella sua idilliaca fattoria nel New Jersey. Col tempo, la tensione tra i due aumenta, sfociando in chiamate al 911, criptici messaggi sui social media e accuse di spionaggio. La faida culmina in un scioccante atto di violenza e in un processo che sconvolge il prestigioso e sofisticato mondo del dressage.",
       "poster": "https://image.tmdb.org/t/p/w342/6K0qTMozHAzzYVsWQrXxmqCC5wY.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/6KMv3pPMkPlHoDdy461x3qep6GX.jpg",
-      "vote": 6.2,
+      "vote": 6.1,
       "genres": [
         "Documentario"
       ],
@@ -150,7 +194,7 @@
       "overview": "Quando la moglie viene brutalmente uccisa, a Carlos Estrada, eroe decorato delle forze speciali, resta solo uno scopo: vendicarsi. Dopo essere diventato milionario per uno strano scherzo del destino, Carlos trasforma la sua fortuna in un arsenale e, con i suoi soldati più fidati, avvia una caccia ai responsabili.",
       "poster": "https://image.tmdb.org/t/p/w342/zJcHCaHWPk5AKysUPpS5pT5ZGIW.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/jJmlCFi5EjpH5vHmOczRiVDm0qS.jpg",
-      "vote": 7.2,
+      "vote": 7.1,
       "genres": [
         "Azione",
         "Thriller"
@@ -193,7 +237,7 @@
       "overview": "In questa commedia, due addetti al marketing, Brad ed Elijah, propongono un preservativo come nuovo sponsor dei Mondiali. Dopo che i loro festeggiamenti da sbronzi in Brasile scatenano uno scandalo internazionale, i due devono sfuggire a tifosi furiosi, a criminali e a funzionari affamati di potere per salvare le proprie carriere e per tornare a casa vivi.",
       "poster": "https://image.tmdb.org/t/p/w342/fnVuGv3dMCQr48DmZzRUHpgrvMo.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/jRsjWwZzI39bTm44FNhRtiICd9k.jpg",
-      "vote": 5.7,
+      "vote": 5.8,
       "genres": [
         "Commedia",
         "Azione",
@@ -241,6 +285,20 @@
         "Thriller"
       ],
       "runtime": 84
+    },
+    {
+      "tmdb_id": 1314481,
+      "title": "Il diavolo veste Prada 2",
+      "year": 2026,
+      "overview": "Sono passati vent'anni da quando Miranda Priestley faceva il bello e il cattivo tempo come direttrice della rivista di moda Runway, e il mondo dell'editoria cartacea è completamente cambiato: la concorrenza Internet è spietata, i budget sono risicati e Miranda è costretta a chinare la testa di fronte agli investitori e agli stilisti dalle cui pubblicità dipende il destino del magazine, soprattutto dopo che Miranda ha lodato pubblicamente una casa di fast fashion che sfrutta il lavoro minorile. Per riparare al danno di immagine il proprietario di Runway, Irv, convoca Andy Sachs, l'ex stagista di Miranda che è diventata un'ottima giornalista, ma ha anche appena perso il lavoro per i tagli all'editoria.",
+      "poster": "https://image.tmdb.org/t/p/w342/zDhu8axN365ytMTSHWxdK8WFH5t.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/y3fQa7pytlysovXzovpXc1OQlTW.jpg",
+      "vote": 6.8,
+      "genres": [
+        "Commedia",
+        "Dramma"
+      ],
+      "runtime": 119
     },
     {
       "tmdb_id": 1641962,
@@ -302,7 +360,7 @@
       "overview": "Eletta è l'unica udente di una famiglia sorda, che scopre un talento canoro straordinario, dovendo scegliere tra la sua passione e il suo nucleo familiare.",
       "poster": "https://image.tmdb.org/t/p/w342/ptWVRyHpDYDoU1vWR2jBQOFSE24.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/Ary1sG0AHn4V1DFrwV7g72Fomq0.jpg",
-      "vote": 6.8,
+      "vote": 6.9,
       "genres": [
         "Musica",
         "Dramma",
@@ -315,7 +373,7 @@
       "title": "Super Mario Galaxy - Il film",
       "year": 2026,
       "overview": "Mario e Luigi, i gemelli idraulici, applicano il loro motto \"Let's-a-go\" per risolvere i problemi di ogni giorno nella loro nuova casa del Regno dei Funghi. Mentre sono impegnati ad aiutare la Principessa Peach e a riportare sulla retta via Bowser, rimpicciolito e imprigionato, incontrano un nuovo compagno: Yoshi. La festa di compleanno della Principessa Peach dà luogo a un'avventura galattica, che vede i due fratelli lanciarsi nello spazio per fermare i loschi piani di Bowser Jr. e salvare la principessa Rosalinda.",
-      "poster": "https://image.tmdb.org/t/p/w342/pxH7Hqg8dSROSunEQyUPLtTeEQy.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/6N64uagTiCH9JMbtIKoQwmdEyxV.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/9Z2uDYXqJrlmePznQQJhL6d92Rq.jpg",
       "vote": 6.7,
       "genres": [
@@ -473,7 +531,7 @@
       "overview": "",
       "poster": "https://image.tmdb.org/t/p/w342/d1NVILoUn4hI8zEFNKoP0K5WDgO.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/w4jOh7ok6JvsYu6WbuSDW97D7D6.jpg",
-      "vote": 8.4,
+      "vote": 8.2,
       "genres": [
         "Documentario",
         "Musica"
@@ -2455,6 +2513,19 @@
       "runtime": 122
     },
     {
+      "tmdb_id": 1462322,
+      "title": "Le città di pianura",
+      "year": 2025,
+      "overview": "La storia di Carlobianchi (Sergio Romano) e Doriano (Pierpaolo Capovilla), due cinquantenni al verde con una filosofia di vita che ruota attorno all'ultimo bicchiere, e del loro incontro con Giulio (Filippo Scotti), un giovane e timido studente di architettura in crisi. Quello che sembra un incontro casuale si trasforma in un road movie disordinato attraverso le pianure del Veneto: tra sbronze, cattivi consigli e una sorprendente amicizia che rimescola le carte del destino di Giulio.  Il film ha conquistato i David di Donatello 2026 nelle categorie più prestigiose, tra cui Miglior Film, Migliore Regia e Migliore Attore Protagonista per Sergio Romano.",
+      "poster": "https://image.tmdb.org/t/p/w342/oxKw1UkPojpYoreMkjqCqjZ1dyG.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/bPAPAsM4jB2CE9mxDpWHYB1HitB.jpg",
+      "vote": 7.6,
+      "genres": [
+        "Commedia"
+      ],
+      "runtime": 100
+    },
+    {
       "tmdb_id": 1315988,
       "title": "White Raid - Colpo nella tormenta",
       "year": 2025,
@@ -2709,7 +2780,7 @@
         "Romance",
         "televisione film"
       ],
-      "runtime": null
+      "runtime": 88
     },
     {
       "tmdb_id": 1496553,
@@ -2744,7 +2815,7 @@
       "overview": "Ha dedicato la sua carriera a portare alla luce storie che i potenti vorrebbero seppellire. Da My Lai ad Abu Ghraib, scopri il lavoro del giornalista Seymour Hersh.",
       "poster": "https://image.tmdb.org/t/p/w342/8I7fIZ4yVWrQldZ0yMv7DM0h9Kv.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/e0z1lFuOLuQibEKtodWbUdI9jL5.jpg",
-      "vote": 7.0,
+      "vote": 7.1,
       "genres": [
         "Documentario"
       ],
@@ -3155,7 +3226,7 @@
       "overview": "Negli anni '90, la queer Christy lotta per il suo sogno di diventare pugile e sposa il suo allenatore più anziano. Il promotore Don King la trasforma in una star come «The Coal Miner's Daughter». Ma dietro al successo sul ring si nasconde una deprimente vita privata in un matrimonio infelice.",
       "poster": "https://image.tmdb.org/t/p/w342/ssy1uHGZkuXLkIWJWrtsBczPvVC.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/tRUWudISYy3vMFAT7p3ebkTDTpH.jpg",
-      "vote": 7.1,
+      "vote": 7.2,
       "genres": [
         "Storia",
         "Dramma"
@@ -3933,7 +4004,7 @@
       "overview": "",
       "poster": "https://image.tmdb.org/t/p/w342/5GkJfdtw1aNh67Iunv8F6B3MR6K.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/wogrbLEhBJ56HNHutvvoGkqgBZA.jpg",
-      "vote": 8.4,
+      "vote": 8.3,
       "genres": [
         "Musica"
       ],
@@ -4422,7 +4493,7 @@
       "overview": "Quando i cattivi più sgradevoli che ci siano escogitano un piano per controllare la città, due bambini coraggiosi fanno squadra con una famiglia di animali magici per sconfiggerli.",
       "poster": "https://image.tmdb.org/t/p/w342/jG57ciKXn2DRTm51glbk7zw8NLB.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/i4o2aPGlnsxfPmDPF5lmlgjScyv.jpg",
-      "vote": 6.0,
+      "vote": 5.9,
       "genres": [
         "Animazione",
         "Commedia",
@@ -5922,7 +5993,7 @@
       "overview": "Craig, un padre di famiglia che vive in periferia, si innamora perdutamente del suo carismatico nuovo vicino, Austin, e i suoi tentativi di farsi un amico maschio adulto rischiano di rovinare la vita di entrambi.",
       "poster": "https://image.tmdb.org/t/p/w342/eikAu9gPJTQQmwFwa1zX5Hfz96P.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/g70uNy3hRqEcU0ilBTtcuBFlizx.jpg",
-      "vote": 6.4,
+      "vote": 6.3,
       "genres": [
         "Commedia",
         "Dramma"
@@ -6259,6 +6330,20 @@
         "Documentario"
       ],
       "runtime": 86
+    },
+    {
+      "tmdb_id": 1205515,
+      "title": "Sorry, Baby",
+      "year": 2025,
+      "overview": "Agnes è una giovane e brillante docente universitaria. Quando succede \"la cosa brutta\", il suo mondo va in pezzi, ma tutto accade improvvisamente e senza clamore, quasi in punta di piedi. Ci vorrebbe tempo, ma la vita va avanti. Almeno per tutti gli altri. Eva Victor dirige e interpreta un’esplorazione delicata e ironica sul tema del superamento di un abuso, un’opera sincera, genuina e irresistibilmente divertente.",
+      "poster": "https://image.tmdb.org/t/p/w342/n8wZEQen5hDNRGzm4fY4sxWe5xe.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/nVHEjkA8vuEGJLfNUOmVW5md6yn.jpg",
+      "vote": 6.9,
+      "genres": [
+        "Dramma",
+        "Commedia"
+      ],
+      "runtime": 103
     },
     {
       "tmdb_id": 1484262,
@@ -6601,6 +6686,22 @@
       "runtime": 112
     },
     {
+      "tmdb_id": 1257009,
+      "title": "Primitive War",
+      "year": 2025,
+      "overview": "Durante la guerra del Vietnam, un’unità di ricognizione si avventura in una valle giungla isolata per scoprire il destino di un plotone scomparso. Presto si ritrovano a lottare per la propria vita contro un nemico inatteso: dinosauri preistorici.",
+      "poster": "https://image.tmdb.org/t/p/w342/4vn9P6zWNsyXzAp54WzbAIFUj0r.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/bWF5ImUscXXYia8owpm8coadR4m.jpg",
+      "vote": 6.5,
+      "genres": [
+        "Azione",
+        "Horror",
+        "Guerra",
+        "Fantascienza"
+      ],
+      "runtime": 133
+    },
+    {
       "tmdb_id": 1522847,
       "title": "Il miliardario: la sfortuna di vincere alla lotteria",
       "year": 2025,
@@ -6836,7 +6937,7 @@
       "overview": "Dopo aver lavorato come agente segreto nell'FBI per dieci anni, Jack \"Cash\" Conry si è lasciato tutto alle spalle dopo la morte della moglie per dedicarsi alle due figlie. Nonostante una vita appagante a casa, Cash si lascia sfuggire l'occasione di lasciare il segno e sta valutando l'idea di tornare in servizio. La decisione viene presa al posto suo quando Jamie, nipote del suo ex socio, lo chiama per chiedere aiuto, catapultando Cash di nuovo in un mondo di pericoli, corruzione e intrighi.",
       "poster": "https://image.tmdb.org/t/p/w342/jSG2mg1998DUAam6X9EA6SeJmqD.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/z8tNyAAnGk2d1XmO1L4i34UmP19.jpg",
-      "vote": 5.9,
+      "vote": 5.8,
       "genres": [
         "Azione",
         "Thriller"
@@ -7427,7 +7528,7 @@
       "overview": "Happy Gilmore era imbattibile, finché un colpo di sfortuna non ha cambiato tutto. Riuscirà l'ex cattivo ragazzo del golf a fare un ritorno degno di una leggenda?",
       "poster": "https://image.tmdb.org/t/p/w342/A65ze2OgRpjawpqyqGxfbJRHI8k.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/m7vBHmPQSokvN4hMQDxdJBdqAtJ.jpg",
-      "vote": 6.5,
+      "vote": 6.6,
       "genres": [
         "Commedia"
       ],
@@ -7639,7 +7740,7 @@
       "title": "Superman",
       "year": 2025,
       "overview": "Rivelatosi già tre anni prima a un mondo abitato da metaumani, Superman è intervenuto in un conflitto armato tra due nazioni, per fermare un massacro. Questo ha dato vita a un incidente geopolitico complesso: la nazione da lui ostacolata è storicamente alleata degli Stati Uniti, di cui Superman è cittadino. Un metaumano proveniente da quella nazione arriva così a Metropolis e sconfigge Superman. Volato al sicuro in Antartide, Superman chiama in soccorso il supercane Krypto che lo trascina al sicuro nella Fortezza della Solitudine. Nel frattempo, Lex Luthor, coinvolto anche nella guerra dove Superman è intervenuto, porta avanti un insidioso piano per scoprire i segreti della sua nemesi, screditarne l'immagine e avere finalmente l'autorizzazione del governo per eliminarlo.",
-      "poster": "https://image.tmdb.org/t/p/w342/mZtiFCSqqyT9q0B07pvGQIZRG62.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/iaGVf2or8w2cwL8hJU8W0X3l4qp.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/eU7IfdWq8KQy0oNd4kKXS0QUR08.jpg",
       "vote": 7.3,
       "genres": [
@@ -8676,7 +8777,7 @@
       "year": 2025,
       "overview": "Tornati nella regione natia con un discreto bottino e con abbondanti alcolici dalla malavita di Chicago, i gemelli Smoke e Stack trasformano una baracca in un locale di ballo e gioco clandestino per la popolazione nera. La festa notturna innesca una gioia contagiosa, ma presto si avvicinano tre bianchi che chiedono insistentemente di poter entrare. Sarà presto chiara la loro intenzione.",
       "poster": "https://image.tmdb.org/t/p/w342/gGhvLVcdWQanE1XuPkC3iE4PJN9.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/aWM8eYmhqBgH4YC5WLLPTJxlc2t.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/nAxGnGHOsfzufThz20zgmRwKur3.jpg",
       "vote": 7.5,
       "genres": [
         "Horror",
@@ -9790,7 +9891,7 @@
       "year": 2025,
       "overview": "La fine del mondo è vicina ma Ethan Hunt non è lontano e riparte da dove aveva lasciato. Recuperata una preziosa chiave crociata, deve raggiungere adesso il Sevastopol, un sottomarino nucleare russo, distrutto dall'Intelligenza Artificiale, che giace sotto la calotta polare. La chiave gli permetterà di recuperare il 'codice sorgente' dell'IA e di disinnescarla. Ormai autonoma e 'cosciente', l'Entità accede a qualsiasi sistema operativo, manipola fatti, dati e persone ed è determinata a sterminare la razza umana. Mentre Hunt cerca una soluzione, l'IA prende progressivamente il controllo delle armi di distruzione di massa. Il tempo stringe, non resta che correre. Ancora e ancora.",
       "poster": "https://image.tmdb.org/t/p/w342/bhBHcUBEGEuEu9iVEgDlSsQIn5l.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/538U9snNc2fpnOmYXAPUh3zn31H.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/xPNDRM50a58uvv1il2GVZrtWjkZ.jpg",
       "vote": 7.2,
       "genres": [
         "Azione",
@@ -9897,7 +9998,7 @@
       "overview": "Russell Hatch, un agente dell'Interpol che assume il ruolo di figura paterna per Jayden, figlio di un informatore ucciso in una retata di routine finita male. Anni dopo, Hatch si ritrova a proteggere Jayden e suo nonno da un gruppo di bande spietate in una guerra senza quartiere, senza fermarsi davanti a nulla per proteggere Jayden e combattere chiunque si metta sulla sua strada.",
       "poster": "https://image.tmdb.org/t/p/w342/tsj5oYBRoF5PuTYrfe1Hw6fsxfG.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/rSRA1p4e3laAAJflzdgtqNlx27Y.jpg",
-      "vote": 5.8,
+      "vote": 6.0,
       "genres": [
         "Azione",
         "Crime",
@@ -9967,7 +10068,7 @@
       "overview": "",
       "poster": "https://image.tmdb.org/t/p/w342/xsApLXxqTG5uorAZRF0kJi0oXfR.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/3HaqAPZ0C8n6Hd5T86U53yJlBAN.jpg",
-      "vote": 8.4,
+      "vote": 8.5,
       "genres": [
         "Dramma",
         "Romance"
@@ -11933,7 +12034,7 @@
       "overview": "Una studentessa, Johanne, è sempre più emotivamente legata ad una sua insegnate di scuola che le apre le porte della sua casa e ascolta con premure le sue domande i suoi pensieri. Affidati ad un diario personale gli scritti intimi di Johanne sul suo primo amore creano attriti all'interno della sua famiglia, spingendo sua madre e sua nonna a riconsiderare le proprie realtà e i propri sogni, innescando un vivace dibattito tra donne.",
       "poster": "https://image.tmdb.org/t/p/w342/jB077kwValRa5rjsKVBITZ0tGmP.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/gjUk32ohE9A05Y4NK9bbkCkAgMB.jpg",
-      "vote": 6.9,
+      "vote": 7.0,
       "genres": [
         "Romance",
         "Dramma"
@@ -12083,7 +12184,7 @@
       "year": 2024,
       "overview": "",
       "poster": "https://image.tmdb.org/t/p/w342/v6uuhdwzJpyMoYS0LGOoCnkgLXU.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/AsOzMmg7vPUlkXc6sGKrISyfpuX.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/iunYfStBvMzd0Oxdpk7hWldq1Jc.jpg",
       "vote": 7.7,
       "genres": [
         "Musica"
@@ -16528,8 +16629,7 @@
         "Animazione",
         "Famiglia",
         "Commedia",
-        "Musica",
-        "Thriller"
+        "Musica"
       ],
       "runtime": 11
     },
@@ -17465,7 +17565,7 @@
       "overview": "La campionessa dei Mondiali Hope Solo parla della sua turbolenta ascesa alla vetta del calcio femminile tra scandali pubblici e tensioni con le ex compagne di squadra.",
       "poster": "https://image.tmdb.org/t/p/w342/2vdEuZwQaEXFJ3Y73u7tS4eshsC.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/sJ9mzTQ8s1rop6LnACel2M46Uuu.jpg",
-      "vote": 5.9,
+      "vote": 6.1,
       "genres": [
         "Documentario"
       ],
@@ -18073,7 +18173,7 @@
       "overview": "Ambientato in un collegio femminile nella Venezia di fine ‘700, Gloria! racconta la storia di Teresa, una giovane dal talento visionario, che, insieme a un gruppetto di straordinarie musiciste, scavalca i secoli e sfida i polverosi catafalchi dell’Ancien Régime inventando una musica ribelle, leggera e moderna. Pop!",
       "poster": "https://image.tmdb.org/t/p/w342/aZKBhTPcfOkeeJAZYImEcRNNsFx.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/mohiVnDYwd9SWG8yIk4nOkiwO5l.jpg",
-      "vote": 6.9,
+      "vote": 7.0,
       "genres": [
         "Dramma",
         "Musica"
@@ -21052,7 +21152,7 @@
       "year": 2024,
       "overview": "Segui il mitico viaggio di Paul Atreides mentre si unisce a Chani e ai Fremen mentre è sul sentiero di guerra per vendicarsi dei cospiratori che hanno distrutto la sua famiglia. Di fronte a una scelta tra l'amore della sua vita e il destino dell'universo conosciuto, Paul si sforza di prevenire un terribile futuro che solo lui può prevedere.",
       "poster": "https://image.tmdb.org/t/p/w342/nhdQxDCI64rMgypYZpsF7UvbdJA.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/eZ239CUp1d6OryZEBPnO2n87gMG.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/xOMo8BRK7PfcJv9JCnx7s5hj0PX.jpg",
       "vote": 8.1,
       "genres": [
         "Fantascienza",
@@ -21332,7 +21432,7 @@
       "overview": "Mario Martone torna ad incontrare, dopo averlo fatto nella vita, Massimo Troisi riproponendolo a chi 'c'era' quando entrava progressivamente nelle case (con la televisione) e nel cuore (con il cinema) degli italiani di qualsiasi latitudine e anche a chi è venuto dopo. Lo fa attraverso un percorso nella sua carriera di attore e di regista ma anche in quella di uomo con il suo carattere schivo ma estremamente sensibile. Ne ricostruisce il lavoro e le passioni tramite le testimonianze di chi, come Anna Pavignano, lo ha amato e ne ha condiviso il percorso di scrittura e di molti altri che ne hanno apprezzato la genialità e l'arte.",
       "poster": "https://image.tmdb.org/t/p/w342/6uZtXmlXM098QCJX8n0C8rTzie3.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/g6VyYdiO4HIeTQsKFjMGMBC5R5s.jpg",
-      "vote": 7.8,
+      "vote": 7.7,
       "genres": [
         "Documentario"
       ],
@@ -23487,7 +23587,7 @@
       "overview": "La ventottenne studentessa di medicina Malina si risveglia disorientata in un bagagliaio e si rende conto, con orrore, che a mancarle non sono solo i ricordi di ciò che le è successo. Con il suo cellulare come unico collegamento col mondo esterno, la giovane e astuta donna comincia una lotta disperata per la sopravvivenza, mentre il veicolo corre inesorabilmente verso un terribile segreto.",
       "poster": "https://image.tmdb.org/t/p/w342/sQ2FqmB98T8bAjhYHa3DIf2TS4H.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/d3DbYA943SwXhqgDSj7fh9Xn8Tp.jpg",
-      "vote": 6.1,
+      "vote": 6.0,
       "genres": [
         "Thriller",
         "Azione",
@@ -23667,7 +23767,7 @@
       "year": 2023,
       "overview": "Quando un rispettato artista marziale viene accusato di essere un assassino, va in giro alla ricerca di risposte sulla sua misteriosa storia di origine e sui nemici sconosciuti che lavorano per distruggerlo.",
       "poster": "https://image.tmdb.org/t/p/w342/wLPyJhhJPTF8wWsAc5rCeYrbOdO.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/rV56FkcHkzHJcBOOqoCeSDnoBff.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/e5H1SGeouEonsXHlQ6rEY8aAAWa.jpg",
       "vote": 6.5,
       "genres": [
         "Azione"
@@ -25208,7 +25308,7 @@
       "overview": "Veronica, dopo un lungo processo e due anni di prigione per l’omicidio della madre e del suo amante, viene riconosciuta innocente. Ha solo vent’anni e tutta la vita davanti, ma è difficile guardare al futuro quando gli occhi di tutti sono ancora rivolti a quel tragico evento. Attraverso i ricordi suoi e della migliore amica Giada, riavvolgeremo il nastro di una storia che più avanza e più si fa inquietante.",
       "poster": "https://image.tmdb.org/t/p/w342/aibnjQQ5kqAshG0HN2Alzz9iaES.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/yRpsLcuHxlEcmwlmp8s8DRFdMmi.jpg",
-      "vote": 5.6,
+      "vote": 5.5,
       "genres": [
         "Dramma"
       ],
@@ -27078,7 +27178,7 @@
       "overview": "Un istruttore bisbetico di una scuola privata del New England è costretto a rimanere nel campus durante le vacanze di Natale per fare da babysitter a una manciata di studenti che non hanno un posto dove andare. Alla fine, stringe un improbabile legame con uno di loro - un problematico cervellone danneggiato - e con il capo cuoco della scuola, che ha appena perso un figlio in Vietnam.",
       "poster": "https://image.tmdb.org/t/p/w342/mgvP049dSB4RV7XT3GN1gH8RbPi.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/A99WMiz0ASpH9coOFrxSEuwTWx0.jpg",
-      "vote": 7.6,
+      "vote": 7.7,
       "genres": [
         "Dramma",
         "Commedia"
@@ -31842,7 +31942,7 @@
       "title": "Super Mario Bros. - Il film",
       "year": 2023,
       "overview": "Un idraulico di Brooklyn di nome Mario viaggia attraverso il Regno dei Funghi con una principessa di nome Peach e un fungo antropomorfo di nome Toad per trovare il fratello di Mario, Luigi, e salvare il mondo da uno spietato mostro sputafuoco di nome Bowser.",
-      "poster": "https://image.tmdb.org/t/p/w342/tOFwmYtHWvbMCyegqOEclUB8IvV.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/u6qqnfdTLGsexK9ljiuvvB73LeB.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/9n2tJBplPbgR2ca05hS5CKXwP2c.jpg",
       "vote": 7.6,
       "genres": [
@@ -37712,7 +37812,7 @@
       "title": "Hunt",
       "year": 2022,
       "overview": "Dopo che un funzionario nordcoreano di alto rango ha chiesto asilo, il capo dell'unità estera della KCIA Park Pyong-ho e il capo dell'unità domestica Kim Jung-do hanno il compito di scoprire una spia nordcoreana, nota come Donglim, che è profondamente radicata nella loro agenzia. Quando la spia inizia a far trapelare informazioni top secret che potrebbero mettere a repentaglio la sicurezza nazionale, le due unità vengono incaricate di indagare a vicenda.",
-      "poster": "https://image.tmdb.org/t/p/w342/bvXLSjCkKjPjXBO4xwwqtN4y8qA.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/Dyc3aCm3F4h8dXr4V5fnIopiyE.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/8voS6nJU5DdKSfFsKIMTTlDssM9.jpg",
       "vote": 6.8,
       "genres": [
@@ -42138,7 +42238,7 @@
       "overview": "Il tredicenne Sam Cleary (Javon \"Wanna\" Walton) sospetta che il suo misterioso e solitario vicino, il signor Smith (Sylvester Stallone), sia in realtà il leggendario eroe Samaritan, dichiarato morto 25 anni fa. L’aumento della criminalità e il rischio di caos globale, spingono Sam a convincere il suo vicino a uscire allo scoperto per salvare la città.",
       "poster": "https://image.tmdb.org/t/p/w342/zNwuKMRHsmUekkr2CAWXkrkfwCC.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/hYZ4a0JvPETdfgJJ9ZzyFufq8KQ.jpg",
-      "vote": 6.6,
+      "vote": 6.7,
       "genres": [
         "Fantascienza",
         "Crime",
@@ -44737,8 +44837,7 @@
       "vote": 6.6,
       "genres": [
         "Avventura",
-        "Fantascienza",
-        "Thriller"
+        "Fantascienza"
       ],
       "runtime": 146
     },
@@ -45207,7 +45306,7 @@
       "year": 2022,
       "overview": "Dopo più di trent’anni di servizio nella Marina, il capitano Pete “Maverick” Mitchell si ritrova a essere quello che sognava, un pilota collaudatore che può spingersi oltre ogni limite, schivando l’avanzamento di carriera che metterebbe un freno alla sua libertà. Quando viene richiamato a addestrare i migliori allievi Top Gun per una missione di altissima specializzazione, Maverick incontra il tenente Bradley Bradshaw, nome in codice “Rooster”, figlio del compianto “Goose”. Alle prese con un futuro incerto e con i fantasmi del passato, Maverick deve confrontarsi con le sue paure più profonde, fino alla missione che richiederà il sacrificio ultimo di quelli che sceglieranno di parteciparvi.",
       "poster": "https://image.tmdb.org/t/p/w342/ygjXVgEALlUA5U8Ov5DhSJqJjUe.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/AaV1YIdWKnjAIAOe8UUKBFm327v.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/5AcP07WJl1VZbnloLZrMVgYjR2s.jpg",
       "vote": 8.2,
       "genres": [
         "Azione",
@@ -50003,7 +50102,7 @@
     },
     {
       "tmdb_id": 660205,
-      "title": "La Terra Dei Figli",
+      "title": "La terra dei figli",
       "year": 2021,
       "overview": "La fine della civiltà è arrivata. Non sappiamo come. Un padre e suo figlio, un ragazzino di quattordici anni, sono tra i pochi superstiti: la loro esistenza, su una palafitta in riva a un lago, è ridotta a lotta per la sopravvivenza. Non c’è più società, ogni incontro con gli altri uomini è pericoloso. In questo mondo regredito il padre affida a un quaderno i propri pensieri, ma quelle parole per suo figlio sono segni indecifrabili. Alla morte del padre, il ragazzo decide di intraprendere un viaggio verso l'ignoto alla ricerca di qualcuno che possa svelargli il senso di quelle pagine misteriose. Solo così potrà forse scoprire i veri sentimenti del padre e un passato che non conosce.",
       "poster": "https://image.tmdb.org/t/p/w342/wD1mZ6PggwNLPFzjKbUYKQXE8uQ.jpg",
@@ -52045,8 +52144,7 @@
       "backdrop": "https://image.tmdb.org/t/p/w780/fuuZFPc8x6gQ8mLGoBp9vrmcQMT.jpg",
       "vote": 6.4,
       "genres": [
-        "Horror",
-        "Thriller"
+        "Horror"
       ],
       "runtime": 105
     },
@@ -52598,7 +52696,7 @@
       "overview": "Dopo essere stato reclutato da un gruppo di ladri non convenzionali, il famoso criminale Richard Pace si ritrova coinvolto in un'elaborata rapina d'oro che promette di avere implicazioni di vasta portata sulla sua vita e su quella di innumerevoli altri.",
       "poster": "https://image.tmdb.org/t/p/w342/fB8LWGnNiVNe6pf7LOYKpvCe3R4.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/6FzuNrApEc71aJ3CwwkpadbNled.jpg",
-      "vote": 5.5,
+      "vote": 5.4,
       "genres": [
         "Azione",
         "Thriller"
@@ -54043,7 +54141,8 @@
       "vote": 7.2,
       "genres": [
         "Horror",
-        "Mistero"
+        "Mistero",
+        "Dramma"
       ],
       "runtime": 111
     },
@@ -54129,7 +54228,8 @@
       "vote": 6.7,
       "genres": [
         "Horror",
-        "Mistero"
+        "Mistero",
+        "Dramma"
       ],
       "runtime": 107
     },
@@ -54639,8 +54739,7 @@
       "vote": 8.0,
       "genres": [
         "Commedia",
-        "Crime",
-        "Dramma"
+        "Crime"
       ],
       "runtime": 134
     },
@@ -59561,7 +59660,7 @@
       "title": "The Swordsman",
       "year": 2020,
       "overview": "Dopo la crisi che ha fatto vacillare la dinastia Joseon, il Regno è sull’orlo di una vera crisi. Approfittando della confusione e del vuoto di potere, il nobile Gurutai, membro cadetto di una famiglia aspirante al trono, prova ad impossessarsi del regno piegando al suo servizio il maestro d’armi Tae Yool, da tempo ritiratosi a vita privata, rapendone la figlia.",
-      "poster": "https://image.tmdb.org/t/p/w342/cpthM8fEZoPGRcROtEJnOZGXEvY.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/4hK3JtTw2KqEMOQURAJAzCrtl9t.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/5lmhjGvg5ddXbTXzeNJfU4qpIeh.jpg",
       "vote": 7.5,
       "genres": [
@@ -61189,7 +61288,7 @@
       "title": "Night in Paradise",
       "year": 2020,
       "overview": "Tae-gu, uomo di punta di una gang criminale guidata da Mr. Yang, tenta di rifarsi una vita per amore della sorella malata e del nipote. Quando questi ultimi vengono uccisi in un incidente da qualcuno che mirava a Tae-gu, egli, scioccato, decide di vendicarsi. Elimina il boss di un’altra gang e fugge nell’isola Jeju. Senza sapere che la sua gang lo ha già abbandonato, incontra Kuto e sua nipote Jae-yeon, che si prendono cura di lui. Jae-yeon sta morendo per una malattia, mentre Tae-gu intuisce che il pericolo si sta avvicinando. La situazione si fa ingarbugliata, e Jae- yeon e Tae-gu, che hanno perso il desiderio di vivere, cominciano a sentire pietà l’uno per l’altra.",
-      "poster": "https://image.tmdb.org/t/p/w342/mWZ2aujwBdFEONvRQv05zPBGy7J.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/b2TFdmaSCJ6Itpolgp1FFjpR03e.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/MocpW8Wrp8uireBg6bT6Y6TKWC.jpg",
       "vote": 6.9,
       "genres": [
@@ -77659,7 +77758,7 @@
       "overview": "Arnold e i suoi compagni di classe vanno in gita a San Lorenzo, nell'America centrale, che per una strana coincidenza è anche l'ultimo posto in cui sono stati visti tempo prima i genitori di Arnold prima di scomparire. Il viaggio prende però una piega inaspettata quando vengono rapiti da un gruppo di pirati. Di fronte ai pericoli della giungla, Arnold farà di tutto per assicurarsi che le cose vadano nel migliore dei modi sperando nel frattempo di poter ritrovare i genitori.",
       "poster": "https://image.tmdb.org/t/p/w342/k4CEG6gNm5PgQeMEoUsAqJULugU.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/eWMHecmPAbOCqALSrq45Jqj4BhF.jpg",
-      "vote": 7.7,
+      "vote": 7.6,
       "genres": [
         "Famiglia",
         "Commedia",
@@ -85364,7 +85463,7 @@
       "year": 2017,
       "overview": "Un detective della omicidi collabora con un criminologo per catturare un assassino seriale i cui crimini sono ispirati ad un gioco per bambini: Hangman.",
       "poster": "https://image.tmdb.org/t/p/w342/e1pehGURvePYeGlsOx0XmMTpLm0.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/kUBYQyyzZgs3JmkTEzXlB3LZQYi.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/5BIg7nx9tZbUgAEWQH1MMARSYHt.jpg",
       "vote": 5.8,
       "genres": [
         "Mistero",
@@ -96353,7 +96452,7 @@
       "title": "Real Oni Gokko - Tag",
       "year": 2015,
       "overview": "La gita di una scolaresca sembra procedere allegramente.",
-      "poster": "https://image.tmdb.org/t/p/w342/hnjvaakhMiESLICya7VITYTW7E9.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/xXeSTyPNI3WSMB2QdugaTGVbuuS.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/rch5tr1bpNyfeRJxARoU7I2a9KR.jpg",
       "vote": 6.5,
       "genres": [
@@ -99477,7 +99576,7 @@
       "year": 2015,
       "overview": "Ambientato in Francia nel 1940, il film narra della bellissima Lucile Angellier, che nell'attesa di ricevere notizie del marito prigioniero di guerra, vive un'esistenza soffocante insieme alla suocera, donna dispotica e meschina. La vita di Lucile viene stravolta quando i parigini in fuga si rifugiano nella sua cittadina, che viene invasa dai soldati tedeschi che occupano le loro case. Inizialmente la giovane donna ignora la presenza di Bruno, un raffinato ufficiale tedesco che è stato dislocato nella loro abitazione, ma dopo l'iniziale indifferenza \"si risveglia\" e inizia a esplorare sentimenti sepolti...",
       "poster": "https://image.tmdb.org/t/p/w342/oFrGJP5RYb1XE7gjIsGxbhU9sx7.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/j82SfPOqas5rvHbAHAPq7OgaSir.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/rnxehuWNDvEEGntsdte0iwHZavy.jpg",
       "vote": 7.2,
       "genres": [
         "Dramma",
@@ -101392,8 +101491,7 @@
       "vote": 6.7,
       "genres": [
         "Avventura",
-        "Fantascienza",
-        "Thriller"
+        "Fantascienza"
       ],
       "runtime": 124
     },
@@ -101401,7 +101499,7 @@
       "tmdb_id": 364470,
       "title": "Game Therapy",
       "year": 2015,
-      "overview": "Lorenzo sta per finire la scuola, è un ragazzo intelligente e ironico, ma la sua intelligenza e ironia si esprimono al meglio nel mondo dei videogame, in cui si rifugia per sfuggire alla realtà, che trova noiosa, limitata e pericolosamente imprevedibile.",
+      "overview": "Francesco sta per finire la scuola, è un ragazzo intelligente e ironico, ma la sua intelligenza e ironia si esprimono al meglio nel mondo dei videogame, in cui si rifugia per sfuggire alla realtà, che trova noiosa, limitata e pericolosamente imprevedibile.",
       "poster": "https://image.tmdb.org/t/p/w342/sflbkNKS9TWUc4VzUgMgqGjmFle.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/xTgVVEFfd5hxKwxtiGGspqIts6c.jpg",
       "vote": 4.5,
@@ -113959,7 +114057,7 @@
       "overview": "Hotel Desire è un cortometraggio drammatico erotico tedesco del 2011 scritto e diretto da Sergej Moya .  La storia segue una mattinata di una madre single a Berlino che ha cercato di gestire la sua vita in equilibrio fra la cura per il suo giovane figlio ed il lavoro in un hotel di lusso, ma affrontando numerose difficoltà ha quasi dimenticando i suoi bisogni personali. La donna sta trascorrendo la sua vita senza aspettative per se stessa e ha passato quasi 7 anni senza un uomo nella sua vita dopo essersi separata dal padre di suo figlio. Improvvisamente una persona VIP che alloggia nello stesso hotel sembra fare al caso suo apparendole di fronte in modo insolito. La donna non riesce a resistere ai suoi sentimenti che sono già stati rinchiusi per sette anni.",
       "poster": "https://image.tmdb.org/t/p/w342/myzQj8Rk178DrWsiZjVKjz7Kj9P.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/wcUohmHc9oDZXarXDp905TYVui4.jpg",
-      "vote": 6.2,
+      "vote": 6.1,
       "genres": [
         "Dramma",
         "Romance"
@@ -120465,7 +120563,7 @@
       "overview": "Georgia è una piacente single dalla doppia nazionalità, greca e americana, trapiantata ad Atene per la forte passione che la lega all'arte ellenica. Non potendo insegnare in università a causa dei numerosi tagli, lavora come guida turistica per un'agenzia di viaggi, proponendo un tour del Peloponneso alla scoperta delle antiche rovine. La sua erudita sensibilità e i suoi modi piuttosto rigidi si scontrano abitualmente sia con la rozzezza dei turisti che con i ritmi rilassati della vita dei greci. In quello che intende essere il suo ultimo viaggio organizzato, ritrova all'improvviso, complice un simpatico vedovo e un amore a portata di mano, quello che i greci chiamano kefi, gioia di vita istintiva.",
       "poster": "https://image.tmdb.org/t/p/w342/aFm1raDzvSMKBMpNCFiE0OgPd9N.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/4s0AurNfsPuC0M6RdPk12trhb6W.jpg",
-      "vote": 6.1,
+      "vote": 6.2,
       "genres": [
         "Commedia",
         "Romance"
@@ -123822,7 +123920,7 @@
       "overview": "Largo è giovane uomo adottato da un ricco benefattore durante l'infanzia. Quando il padre adottivo viene assassinato in circostanze misteriose, Largo si mette alla ricerca delll'assassino per vendicare il genitore e difendere i propri beni.",
       "poster": "https://image.tmdb.org/t/p/w342/LWl3dgftE17TiW8CsWaA1T5QvC.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/qWSjUUPWHwDvFhUisPan5BPGFPA.jpg",
-      "vote": 6.0,
+      "vote": 6.1,
       "genres": [
         "Avventura",
         "Dramma",
@@ -125936,8 +126034,7 @@
       "backdrop": "https://image.tmdb.org/t/p/w780/y27M2hIwZRRvMAVEadFPP5hCPg1.jpg",
       "vote": 6.1,
       "genres": [
-        "Horror",
-        "Thriller"
+        "Horror"
       ],
       "runtime": 85
     },
@@ -126142,8 +126239,8 @@
         "Azione",
         "Animazione",
         "Commedia",
-        "Dramma",
-        "Famiglia"
+        "Famiglia",
+        "Avventura"
       ],
       "runtime": 95
     },
@@ -129597,7 +129694,7 @@
       "year": 2006,
       "overview": "Appena arrivato in una nuova citta, senza amici e tormentato da un bullo del quartiere, il piccolo Lucas Nickle sfoga la sua frustrazione su un nido di innocenti formiche del suo giardino. Ma un giorno le formiche reagiscono. Usando una pozione magica, fanno rimpicciolire Lucas alle loro dimensione e lo condannano a vivere come una formica nella loro colonia. In questo nuovo mondo, Lucas imparerà un'importante lezione sull'amicizia, inizierà a vedere la vita in modo diverso e infine troverà il coraggio per difendersi.",
       "poster": "https://image.tmdb.org/t/p/w342/sl4HgmOKvfC6iq787jzE1sa3pBq.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/zT7GDvQl2zgs0p3Z2wGwxsaEjNZ.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/bSAFxs1REUSNk50yjuiVugDKDxz.jpg",
       "vote": 5.8,
       "genres": [
         "Fantasy",
@@ -132642,7 +132739,7 @@
       "year": 2005,
       "overview": "Milo è un serbo di mezza età che, dietro un'apparenza rispettabile, nasconde il fatto di essere uno dei più importanti boss della droga a Copenhagen. Proprio mentre è immerso nei preparativi per la festa che sta organizzando in occasione dei venticinque anni di sua figlia, Milo vede la sua posizione messa in serio pericolo da alcuni giovani immigrati albanesi che stanno tentando di scalzarlo dalla sua posizione dominante nel traffico degli stupefacenti della città. Lo attendono 24 ore terribili in cui Milo deve continuare a sembrare tranquillo festeggiando sua figlia, mentre intanto deve lottare senza esclusione di colpi per non perdere il predominio.",
       "poster": "https://image.tmdb.org/t/p/w342/58GihudCbkleiYaTNf7huayYw8n.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/tuxPwQUg14iwoKBz58KRwqG8vU9.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/mRqM7jaTPCdzRELR5sjOMgiDDwo.jpg",
       "vote": 7.2,
       "genres": [
         "Azione",
@@ -133391,7 +133488,7 @@
       "title": "40 anni vergine",
       "year": 2005,
       "overview": "Andy Stitzer è un quarantenne con una vita traquilla e piuttosto serena; ha una bella casa, un lavoro, dei buoni amici, una collezione di fumetti e di action figures di cui va fiero. C'è solo una cosa che proprio gli manca: non ha mai fatto sesso. Anche se questo per lui non sembra essere un problema, i suoi amici non la pensano così e tentano in tutti i modi di risolvere la questione, senza però avere successo. Fino al giorno in cui Andy conosce Trish. E' finalmente arrivato il momento giusto?",
-      "poster": "https://image.tmdb.org/t/p/w342/3qEDTIe8PvYEjZ3VdAPnP45rwFS.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/qJjLGU6VZJV4PNZXpuVRtmLjSCF.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/3Wej7JW8Ikrzbm6h0lmSdeOYMmu.jpg",
       "vote": 6.4,
       "genres": [
@@ -134062,7 +134159,7 @@
       "overview": "Nell'Inghilterra rurale di fine '700 un giovane aristocratico a cui non difettano le ricchezze, Charles Bingley, affitta la tenuta vicina a quella dei Bennet, a cui non difettano invece le figlie da maritare. Una sera, durante una festa danzante, Bingley fa il suo ingresso nella sala scatenando lo scompiglio fra le fanciulle del paese che desiderano un giro di danza e un (buon) partito. Accompagnato dall'altezzosa sorella e dal bello quanto presuntuoso Signor Darcy, Bingley si innamora perdutamente della primogenita dei Bennet, la timida e placida Jane. Amore a prima vista sarebbe anche per Darcy e la secondogenita Bennet, Lizzie, se non fosse per quella loro indole indomita e poco incline al confronto.",
       "poster": "https://image.tmdb.org/t/p/w342/bA4gEvNLIpwVV1JaU4S4yueLjP8.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/1Onam6oWyFAUCcoxtdWkACtEiNr.jpg",
-      "vote": 8.1,
+      "vote": 8.0,
       "genres": [
         "Dramma",
         "Romance"
@@ -137144,7 +137241,7 @@
       "year": 2003,
       "overview": "Molly, svampita figlia di un defunto divo del rock, è in bolletta in seguito alla fuga del proprio commercialista. Per sbarcare il lunario si vedrà costretta a fare da baby-sitter ad una viziatissima bambina di nome Ray: l'incontro-scontro tra le due personalità sarà esplosivo. La solita spassosa/irritante maschera di Brittany Murhpy fa il contrappunto alla creatura aliena dalle sembianze infantili chiamata Dakota: il risultato è la tipica commedia soft americana, a tratti piacevolmente sgangherata ma decisamente tutt'altro che memorabile.",
       "poster": "https://image.tmdb.org/t/p/w342/53iGa5sM0AJlpG8ay5ur8wwVIO0.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/mS3RlvaPIOLftOZaW5Droa9L9Yz.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/7TvehiVjzE9hMvnq94mOYjP8kGT.jpg",
       "vote": 6.9,
       "genres": [
         "Commedia",
@@ -138638,6 +138735,21 @@
         "Thriller"
       ],
       "runtime": 107
+    },
+    {
+      "tmdb_id": 8341,
+      "title": "Samsara",
+      "year": 2002,
+      "overview": "Una carovana di lama condotta da Apo, vecchio e saggio monaco accompagnato da un monaco più giovane Sonam compie un viaggio tra le montagne alla ricerca di Tashi, un brillante discepolo. Il ragazzo sta per completare una meditazione solitaria durata tre anni. Risvegliato da una lunga trance l'aspirante monaco si trova a provare un sorprendente e intenso risveglio sessuale.",
+      "poster": "https://image.tmdb.org/t/p/w342/j97jPOtKRpPjNSoaupokZHWGQaj.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/2JbJDI5FV5IP0GiFKtAIaILg270.jpg",
+      "vote": 7.5,
+      "genres": [
+        "Avventura",
+        "Dramma",
+        "Romance"
+      ],
+      "runtime": 145
     },
     {
       "tmdb_id": 9572,
@@ -140745,7 +140857,7 @@
       "year": 2002,
       "overview": "La Repubblica governata dal cancelliere Palpatine è entrata in crisi a causa del blocco in atto sul pianeta Naboo da parte della Federazione; un gruppo di dissidenti comandato dal Jedi conte Dooku manifesta il malcontento per ciò che sta accadendo. Alcuni membri del Senato chiedono che la Repubblica venga dotata di un esercito in grado di fronteggiare la situazione. Nel frattempo Amidala - diventata Senatrice e minacciata dai separatisti - è sfuggita a un attentato: la sua protezione viene affidata a Anakin Skywalker. Nel tentativo di scoprire gli ideatori del complotto, Obi-Wan Kenobi viene a conoscenza dell'esistenza di un misterioso esercito di cloni...",
       "poster": "https://image.tmdb.org/t/p/w342/zW4eR9utiKPnTHcIP4xuy0t09nT.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/msYmRFJfXy0zsFd73PAEqdetKpO.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/abwxHfymXGAbbH3lo9PDEJEfvtW.jpg",
       "vote": 6.6,
       "genres": [
         "Avventura",
@@ -145843,7 +145955,7 @@
       "year": 1999,
       "overview": "Heather, Joshua e Michael, tre studenti di regia, vogliono girare un documentario su una leggenda locale, quella della strega di Blair che che vivrebbe nei boschi presso Burkettsville, nel Maryland, dove tanti bambini sono scomparsi negli anni '40...",
       "poster": "https://image.tmdb.org/t/p/w342/rl5KxmR0AqtsmpbZmOFac4bccUd.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/ghPJw3XfhELokIf6V5QL0VpsXtK.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/1JnemtgRmn3vcVE4GEzUkJVuL8B.jpg",
       "vote": 6.4,
       "genres": [
         "Horror",
@@ -149249,7 +149361,7 @@
       "year": 1997,
       "overview": "Cinque anni dopo essere stato assassinato dai colleghi corrotti del servizio segreto governativo, Al Simmons fa un patto col diavolo per tornare sulla Terra, vendicare il suo assassinio e rivedere Wanda, grande amore della sua vita. Spinto dalla collera, Simmons risorge nelle vesti di Spawn, cavaliere delle tenebre dal volto sfigurato. Troppo tardi, Spawn si rende conto che il patto è ingannevole, e vorrebbe rinunciare al ruolo assegnatogli di distruttore del genere umano...",
       "poster": "https://image.tmdb.org/t/p/w342/uz6ZLyeotIMe3LrrsTUpVIumnOY.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/cSR1BXlqaKXhexFQQU4NJdI3KDy.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/mtqMXsCymqLCYpXE0BqWSa89jYo.jpg",
       "vote": 5.4,
       "genres": [
         "Azione",
@@ -149327,7 +149439,7 @@
       "year": 1997,
       "overview": "Ricostruzione di uno di quegli episodi storici di cui i libri non parlano: nel 1839, 53 schiavi neri del vascello spagnolo \"Amistad\", in viaggio verso Cuba, riescono a liberarsi e fanno rotta verso l'Africa, ma sono bloccati da una nave americana e mandati sotto processo per pirateria e l'assassinio dell'equipaggio. Parte come un film d'avventure e diventa un dramma giudiziario: si scopre che i rivoltosi non sono nati schiavi e quindi, secondo la Costituzione degli Stati Uniti, avevano il diritto di lottare per la loro libertà (abolita nel Regno Unito nel 1772, la schiavitù esisteva ancora nel Nordamerica).",
       "poster": "https://image.tmdb.org/t/p/w342/1378mLbmntbso0s2PX33vBXiRC.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/6dTbovP5RdrNjroTpke0DQAvidN.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/AmTrqk910ot3aYLBGyIG78Xfa18.jpg",
       "vote": 7.0,
       "genres": [
         "Dramma",
@@ -149685,6 +149797,21 @@
         "Fantascienza"
       ],
       "runtime": 98
+    },
+    {
+      "tmdb_id": 7095,
+      "title": "Jack",
+      "year": 1996,
+      "overview": "Karen è incinta ma la gravidanza è cominciata appena da due mesi, quando il figlio improvvisamente viene al mondo. Jack nasce e cresce a ritmo vertiginoso, a causa di una rarissima disfunzione genetica che accelera in maniera anomala la crescita e lo sviluppo fisico. Quando compie dieci anni, Jack ha l'aspetto di un quarantenne ma la mente di un bambino e questo crea non poche difficoltà a scuola, nei giochi, verso i compagni. I genitori lo hanno sempre tenuto al riparo dal mondo esterno, ma arriva il momento in cui Jack sente il bisogno di uscire, di fare esperienze, di stare con i bambini della sua età.",
+      "poster": "https://image.tmdb.org/t/p/w342/9W6UI8UQ4YdLCAaPFd0lcKJ1tX4.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/v9wC8Rf3RHYQ6yKO4yQAlQLHSA6.jpg",
+      "vote": 6.3,
+      "genres": [
+        "Commedia",
+        "Famiglia",
+        "Dramma"
+      ],
+      "runtime": 113
     },
     {
       "tmdb_id": 784,
@@ -152353,6 +152480,33 @@
       "runtime": 104
     },
     {
+      "tmdb_id": 82358,
+      "title": "I mitici - Colpo gobbo a Milano",
+      "year": 1994,
+      "overview": "Due balordi “de Roma” allo sbando, bisognosi di pecunia, vanno in trasferta a Milano per rapinare una gioielleria di via Montenapoleone. Raccattano quindi una squadra di specialisti, tra cui c'è un'anziana locatrice che si finge una Visconti.",
+      "poster": "https://image.tmdb.org/t/p/w342/et2YAFGIpWRPhKx4oRSPwNmvXcj.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/mkG5afzjnMImlMsCmV031McqW2X.jpg",
+      "vote": 5.3,
+      "genres": [
+        "Crime",
+        "Commedia"
+      ],
+      "runtime": 100
+    },
+    {
+      "tmdb_id": 31414,
+      "title": "Sátántangó",
+      "year": 1994,
+      "overview": "La storia si incentra sul collasso di una fattoria collettiva ai tempi della fine del comunismo in Ungheria. Una dozzina di individui abbrutiti vive una vita senza speranza in quello che resta di una cooperativa agricola, nell'attesa ansiosa di andarsene. Sperano in un futuro migliore grazie al denaro che riceveranno dalla chiusura della comunità. Il carismatico Irimiás, che sparì due anni prima dalla comunità e che ormai tutti davano per morto, sta per tornare. La voce del suo ritorno rapidamente arriva al villaggio e il film si concentra sull'impatto e le conseguenze che il ritorno di Irimias ha sugli abitanti della fattoria che si troveranno a far fronte non solo alle astuzie di Irimiás ma anche ai conflitti che dividono gli uni dagli altri.",
+      "poster": "https://image.tmdb.org/t/p/w342/cOrtWdUflqXL9BqoQNjv9WwQiPs.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/5a4Gmk2HNeefI4Rmwdmbyoy79oy.jpg",
+      "vote": 8.0,
+      "genres": [
+        "Dramma"
+      ],
+      "runtime": 450
+    },
+    {
       "tmdb_id": 2124,
       "title": "Il colore della notte",
       "year": 1994,
@@ -154965,6 +155119,19 @@
       "runtime": 125
     },
     {
+      "tmdb_id": 114726,
+      "title": "Ma capita tutto a me?",
+      "year": 1992,
+      "overview": "While heading to the town where his sister, Marci, lives, big-city banker Bill Campbell is robbed by a woman who takes everything he has, including his clothes and a business document worth millions of dollars. Bill eventually reunites with Marci, who is in a tizzy because she thinks their stepfather has been killed. While trying to determine if his sister is right, Bill must also get back his valuable paperwork.",
+      "poster": "https://image.tmdb.org/t/p/w342/y2El6Z9vlsLcOjtcawNESpAzDb3.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/cGKrZqFkPuzkmWq57ZOTtMopTws.jpg",
+      "vote": 5.4,
+      "genres": [
+        "Commedia"
+      ],
+      "runtime": 82
+    },
+    {
       "tmdb_id": 4823,
       "title": "Analisi finale",
       "year": 1992,
@@ -155854,7 +156021,7 @@
       "overview": "Anno 1462, Costantinopoli era caduta. I musulmani turchi dilagavano in Europa, minacciando tutto il mondo cristiano. Dalla Transilvania si levò a difesa della chiesa un cavaliere rumeno del sacro ordine del Dragone, conosciuto come Draculia. Quando ritornò a casa, scoprì che Elisabeta, principessa romena nonché sua moglie, era morta suicida quando ricevette, dai turchi sconfitti, la falsa notizia della morte dell'amato marito. Alle parole del prete, che sentenziò la dannazione di Elisabeta in quanto suicida, rinnegò Dio e la chiesa, che aveva difeso, e diventò un vampiro.",
       "poster": "https://image.tmdb.org/t/p/w342/4F3t9sAdpmJ8adyForeCcj5G8pX.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/jhs21DDKZM6J9k448R1m0w67pD.jpg",
-      "vote": 7.4,
+      "vote": 7.5,
       "genres": [
         "Romance",
         "Horror"
@@ -157189,6 +157356,20 @@
       "runtime": 135
     },
     {
+      "tmdb_id": 9586,
+      "title": "Il falò delle vanità",
+      "year": 1990,
+      "overview": "La brillante carriera di un operatore di borsa crolla quando è arrestato per aver investito con l'auto un giovane nero senza soccorrerlo. L'incidente è amplificato da un giornalista alcolizzato e strumentalizzato da un fanatico predicatore.",
+      "poster": "https://image.tmdb.org/t/p/w342/bJtnf1WJtMf9ODWQviVSX55FNtk.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/uSInqX82oDeEHSDUwekneCJ2HLc.jpg",
+      "vote": 5.6,
+      "genres": [
+        "Commedia",
+        "Dramma"
+      ],
+      "runtime": 126
+    },
+    {
       "tmdb_id": 2891,
       "title": "Un angelo alla mia tavola",
       "year": 1990,
@@ -158034,7 +158215,7 @@
       "year": 1990,
       "overview": "Joh Dunbar è considerato un eroe dopo che accidentalmente conduce le truppe dell'unione alla vittoria durante la Guerra Civile. Richiede una posizione sulla frontiera dell'ovest, ma la trova deserta. Presto, però, scopre di non essere solo ed incontra un lupo che chiama \"due calzini\" e una tribù pellerossa. Presto, Dunbar stringe amicizia con la tribù e scopre una donna bianca cresciuta dalla tribù di nativi...",
       "poster": "https://image.tmdb.org/t/p/w342/ext2lih9ZlWTeSWudeyy93ZNITr.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/f6YvaVqqNjAHYI4uC64ChpwqrUg.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/ywWva4trKw7f3wtbz81Fe3FnrtC.jpg",
       "vote": 7.8,
       "genres": [
         "Avventura",
@@ -158971,8 +159152,7 @@
       "backdrop": "https://image.tmdb.org/t/p/w780/AbxX6yknCzrS2Uu67IN4HVbqKez.jpg",
       "vote": 5.3,
       "genres": [
-        "Horror",
-        "Thriller"
+        "Horror"
       ],
       "runtime": 96
     },
@@ -160311,6 +160491,20 @@
       "runtime": 110
     },
     {
+      "tmdb_id": 15143,
+      "title": "Un meraviglioso batticuore",
+      "year": 1987,
+      "overview": "In un liceo americano dove vige una rigida gerarchia sociale, si svolge la storia di Watts, una ragazza dal fare un po' mascolino, migliore amica di Keith Nelson, meccanico e sensibile artista che perde la testa per la bella e ricca Amanda Jones, una delle ragazze più popolari della scuola. Questo porta Watts a rendersi conto di provare qualcosa di molto di più di una vera amicizia e a tentare di proteggerlo dalla vendetta di Jenns Hardy, ex fidanzato di Amanda.",
+      "poster": "https://image.tmdb.org/t/p/w342/hH1a5Zjv9Lep3aJOqGv9gS2FeyI.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/k5LISwQzFyNiw0o1G0azI3YmFnO.jpg",
+      "vote": 6.8,
+      "genres": [
+        "Romance",
+        "Commedia"
+      ],
+      "runtime": 95
+    },
+    {
       "tmdb_id": 27738,
       "title": "Mamma ho acchiappato un russo",
       "year": 1987,
@@ -161204,7 +161398,7 @@
       "year": 1987,
       "overview": "Un commando di soldati americani specialisti in guerriglia viene inviato nella giungla del centro america per distruggere un gruppo di guerriglieri. La missione viene rapidamente eseguita, ma sulla via del ritorno il commando diviene il bersaglio di un terrificante essere invisibile, il quale attacca gli uomini, li uccide e li squarta. In breve tempo Dutch, il comandante del gruppo rimane solo a fronteggiare quello che si rivela essere un cacciatore alieno dotato di armi e tecnologia superiori. Il coraggio, l'addestramento e un po' di fortuna consentiranno all'uomo di individuare i punti deboli del mostro.",
       "poster": "https://image.tmdb.org/t/p/w342/quBFT8L0Soxd4Ls6Ok9DtZniIj7.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/YL3GPOiDcNraIJOVDCZsoOBoDy.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/otkJlfjB7zJ5h34FEIfemenMbCy.jpg",
       "vote": 7.5,
       "genres": [
         "Fantascienza",
@@ -162330,7 +162524,7 @@
       "year": 1986,
       "overview": "Problemi di bilancio costringono alla chiusura di una delle due scuole di polizia dello stato. Si apre così una sfida senza esclusione di gag per decidere quale verrà risparmiata.",
       "poster": "https://image.tmdb.org/t/p/w342/vAMyEiV6nfcG6mYvR5XqEM9C966.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/vGL5PaLY4adAvVICCYmXYIzzwH8.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/zIp8rPr0UzL2QhB5JCU04DqPeHQ.jpg",
       "vote": 5.8,
       "genres": [
         "Commedia",
@@ -164307,6 +164501,21 @@
       "runtime": 114
     },
     {
+      "tmdb_id": 11613,
+      "title": "Cane e gatto",
+      "year": 1983,
+      "overview": "Florida. Tony Roma (Tomás Milián), un playboy, cantante e ballerino italo-americano, nonché ladruncolo da strapazzo, adesca ricche donne per rubargli gioielli e altri preziosi; così facendo si invischia in una storia che ha a che fare con un importante politico legato alla mafia; il tenente della polizia Alan Parker (Bud Spencer) recupera più volte Tony e lo assicura ai colleghi della giustizia, i quali però si rivelano anche loro collusi con la mafia; nel frattempo Tony riesce a scappare più volte con esilaranti escamotages, e arriva per caso ad assistere (come testimone oculare) ad un omicidio di mafia; finisce così con l'essere alleato della polizia anziché ricercato; tra improbabili flirt \"on the road\", colpi di scena, e le classiche scazzottate dei film di Bud Spencer, si giungerà alla risoluzione del caso.",
+      "poster": "https://image.tmdb.org/t/p/w342/uTh55o09eaV6cLUZdurYasVbzT9.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/bDnVkPvPYUW1L8eiAGo9atI75lI.jpg",
+      "vote": 6.1,
+      "genres": [
+        "Azione",
+        "Commedia",
+        "Crime"
+      ],
+      "runtime": 101
+    },
+    {
       "tmdb_id": 4202,
       "title": "Danton",
       "year": 1983,
@@ -165368,7 +165577,7 @@
       "year": 1982,
       "overview": "Mentre i genitori sono sempre in crisi di coppia, Vic continua ad avere le sue esperienze sentimentali, frutto di esuberanza e imprudenza. Intanto la vispa bisnonna si sposa con un coetaneo.",
       "poster": "https://image.tmdb.org/t/p/w342/ixRF6arqUqSHqvruUxbLFaSkK2L.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/apgY9DqYzqgMAGu0HRhOkJi8mHV.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/fsPJRCb3n1tTaraMY0QoA8taXUb.jpg",
       "vote": 6.4,
       "genres": [
         "Commedia",
@@ -170179,6 +170388,20 @@
       "runtime": 122
     },
     {
+      "tmdb_id": 3698,
+      "title": "Amico, stammi lontano almeno un palmo",
+      "year": 1972,
+      "overview": "Uscito di prigione si unisce a un vecchio amico e insieme rapinano banche. Western all'italiana a metà strada tra la parodia e la tradizione, qua spiritoso, là avvincente.",
+      "poster": "https://image.tmdb.org/t/p/w342/dXpukDzTrv7UZiXGAi030Jh9E1H.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/rK2qnVGzzLX7KB71P0P86KdZMgX.jpg",
+      "vote": 5.1,
+      "genres": [
+        "Western",
+        "Commedia"
+      ],
+      "runtime": 109
+    },
+    {
       "tmdb_id": 1721,
       "title": "...Più forte ragazzi!",
       "year": 1972,
@@ -174604,6 +174827,19 @@
       "runtime": 75
     },
     {
+      "tmdb_id": 4173,
+      "title": "Stromboli (Terra di Dio)",
+      "year": 1950,
+      "overview": "Karin è una profuga lituana che durante la Seconda Guerra Mondiale conosce l'italiano Antonio, lo sposa e va a vivere con lui nella sua terra, l'isola di Stromboli. Karin però non si adatta a quella realtà e soffre per le enormi differenze culturali con la gente del posto. Quando rimane incinta, prova a scappare oltre il vulcano in eruzione.",
+      "poster": "https://image.tmdb.org/t/p/w342/7YEX2VP3YXxUNo3YvfbSiDYZTX4.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/58wyozfcoM7mFiA0soOJfHEA27N.jpg",
+      "vote": 7.1,
+      "genres": [
+        "Dramma"
+      ],
+      "runtime": 100
+    },
+    {
       "tmdb_id": 43389,
       "title": "Luci del varietà",
       "year": 1950,
@@ -175680,6 +175916,81 @@
   ],
   "tv": [
     {
+      "tmdb_id": 303143,
+      "title": "La mia nobile nemica",
+      "year": 2026,
+      "overview": "Una cattiva dell'era Joseon riapre gli occhi nella Seul moderna, dove lo spietato erede di un chaebol potrebbe essere la sua ultima possibilità di riscrivere il proprio destino.",
+      "poster": "https://image.tmdb.org/t/p/w342/u2cX3CVzUZLIGVwd9HB7bUhE7OP.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/p1ntnKJwn1URGv1xpU6NN33Y11O.jpg",
+      "vote": 9.5,
+      "genres": [
+        "Dramma",
+        "Commedia",
+        "Sci-Fi & Fantasy"
+      ],
+      "seasons": [
+        {
+          "n": 1,
+          "episodes": 14
+        }
+      ]
+    },
+    {
+      "tmdb_id": 319820,
+      "title": "Rosa Elettrica - In fuga con il nemico",
+      "year": 2026,
+      "overview": "Al centro della storia Rosa, giovane agente del programma protezione testimoni incaricata di scortare Cocìss, baby boss di camorra deciso a collaborare, interpretato dal co-protagonista Francesco Di Napoli. Quando scopre che qualcosa nell’operazione non torna, Rosa rompe la catena di comando e fugge con lui: da quel momento entrambi diventano bersagli, costretti ad attraversare l’Italia senza potersi fidare di nessuno, nemmeno delle istituzioni che dovrebbero proteggerli.",
+      "poster": "https://image.tmdb.org/t/p/w342/6L8mWi31O2SwdX8b3oCLv0S6eJI.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/7B3jeJJXo4suCZoWx2b89Qt3OqH.jpg",
+      "vote": null,
+      "genres": [
+        "Action & Adventure"
+      ],
+      "seasons": [
+        {
+          "n": 1,
+          "episodes": 6
+        }
+      ]
+    },
+    {
+      "tmdb_id": 287011,
+      "title": "Sold Out on You",
+      "year": 2026,
+      "overview": "Una presentatrice di televendite stacanovista si trasferisce in campagna per risollevare le sorti del suo programma, ma un misterioso coltivatore le travolge i piani... e il cuore.",
+      "poster": "https://image.tmdb.org/t/p/w342/btn0Y0DgoueRLv9lrp4RHCWiwa5.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/dL5mViE22ZHnhrUU9wlklzIU4Iy.jpg",
+      "vote": 7.5,
+      "genres": [
+        "Commedia",
+        "Dramma"
+      ],
+      "seasons": [
+        {
+          "n": 1,
+          "episodes": 12
+        }
+      ]
+    },
+    {
+      "tmdb_id": 314916,
+      "title": "Unconditional",
+      "year": 2026,
+      "overview": "Quando Gali viene arrestata per possesso di droga, una vacanza madre-figlia all’estero prende una piega devastante. Rifiutandosi di accettare le accuse, sua madre Orna rischia tutto per farle ottenere la libertà, finendo per restare invischiata nella rete dei segreti di Gali.",
+      "poster": "https://image.tmdb.org/t/p/w342/2pelaXFMVlahQVO9nGTKDYBUUzf.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/aVvPFnpv0djtEG6KtS3dMdSCwee.jpg",
+      "vote": 5.5,
+      "genres": [
+        "Dramma"
+      ],
+      "seasons": [
+        {
+          "n": 1,
+          "episodes": 8
+        }
+      ]
+    },
+    {
       "tmdb_id": 262388,
       "title": "M.I.A.",
       "year": 2026,
@@ -175744,7 +176055,7 @@
       "overview": "Quando Heeju entra casualmente in possesso dei lingotti d'oro di una banda di contrabbandieri, si ritrova catapultata in un mondo caotico di avidità e tradimenti. Mentre chi la circonda lotta per accaparrarsi l'oro, Heeju cede al desiderio di tenere tutto il bottino per sé, dando inizio a una lotta disperata per la sopravvivenza.",
       "poster": "https://image.tmdb.org/t/p/w342/eIvURvxHcKkbipuCJDagZrvAFud.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/kuLhcTkriaiXYYdKGS9yt0AX4F4.jpg",
-      "vote": 9.5,
+      "vote": 7.0,
       "genres": [
         "Dramma",
         "Crime",
@@ -175783,7 +176094,7 @@
       "overview": "Ambientata tra il XX secolo e gli anni Settanta, la storia segue le vicende di Esteban Trueba, un uomo determinato a consolidare il proprio potere economico e politico, e di Clara del Valle, una giovane donna dotata di poteri soprannaturali. Nel corso degli anni, i loro discendenti si troveranno ad affrontare tensioni familiari, conflitti sociali e profonde trasformazioni che plasmeranno il corso delle loro vite.",
       "poster": "https://image.tmdb.org/t/p/w342/yb682O0KCZlS5qRydxOytO5A6co.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/kt87GDnUHXU8F4EHmiafVRAMmak.jpg",
-      "vote": 8.4,
+      "vote": 7.4,
       "genres": [
         "Dramma"
       ],
@@ -175799,9 +176110,9 @@
       "title": "Widow's Bay",
       "year": 2026,
       "overview": "Il sindaco di una cittadina del New England è deciso a farne una meta turistica da urlo, ignorando gli abitanti che la considerano maledetta.",
-      "poster": "https://image.tmdb.org/t/p/w342/qM2TOK3iSXsKGy4vvISXKmPZGgP.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/5lcxWLVAEICkFpuAiV1aMy7ZZj3.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/u6XtMg9Ai9siEbEs0UudPS3EaZY.jpg",
-      "vote": 6.9,
+      "vote": 7.1,
       "genres": [
         "Dramma",
         "Mistero",
@@ -176015,7 +176326,7 @@
       "overview": "Una giovane madre proveniente da una setta isolata incontra un misterioso sconosciuto e intraprende una relazione rischiosa che risveglia desideri e oscuri segreti.",
       "poster": "https://image.tmdb.org/t/p/w342/oVl01a7R8rfmWrolWtrlPXYQqzj.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/rfUT32eWuaYcs7pFSyhT08vfCaF.jpg",
-      "vote": 7.2,
+      "vote": 7.1,
       "genres": [
         "Dramma"
       ],
@@ -176052,7 +176363,7 @@
       "overview": "Timida studentessa di giorno e audace autrice di romance di notte, Eui-ju trova ispirazione quando a scuola arrivano quattro insegnanti sexy: il glaciale Woo-su, l'esuberante Da-ju, il burbero Gi-jeon e il dolce Dong-ju. Così decide di trasformarli nei protagonisti della sua nuova storia, che diventa virale. Ma Woo-su, suo acerrimo nemico, scopre il suo segreto. Eui-ju riuscirà a finire il lavoro?",
       "poster": "https://image.tmdb.org/t/p/w342/o4wpNU5NtJkMxAe45w43oMX6qji.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/sWgf0zfmjKiwXl5ND2b9apkChkV.jpg",
-      "vote": 7.8,
+      "vote": 8.2,
       "genres": [
         "Dramma",
         "Commedia"
@@ -176168,7 +176479,7 @@
       "year": 2026,
       "overview": "Rimasta incinta, l’aspirante scrittrice Margo Millet è costretta a lasciare il college e a fare i conti con gravi difficoltà economiche. Ma quando ricompare suo padre, un ex wrestler professionista che non vedeva da tempo, Margo scopre un modo sorprendente per far fruttare il suo talento nella narrazione.",
       "poster": "https://image.tmdb.org/t/p/w342/9UO47ekDKvWJ7uW3fesato0fMQ4.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/5O9CNnYuH1U0L3ym7q7q93eH99u.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/r1lGjwTRF0RGYFHzvt3SupArmRy.jpg",
       "vote": 8.0,
       "genres": [
         "Dramma",
@@ -176299,7 +176610,7 @@
       "overview": "Quattro anni dopo gli eventi de \"The Handmaid's Tale\", una nuova generazione di giovani donne a Gilead si confronta con il futuro tetro che le attende. Per queste giovani donne, crescere a Gilead è tutto ciò che hanno sempre conosciuto, senza alcun ricordo tangibile del mondo esterno prima del loro indottrinamento a questa vita. Di fronte alla prospettiva di essere date in sposa e di vivere una vita di servitù, saranno costrette a cercare alleati, nuovi e vecchi, che le aiutino nella loro lotta per la libertà e la vita che meritano.",
       "poster": "https://image.tmdb.org/t/p/w342/xVsFopLisBoiKdXXecaNTN4pJ9A.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/uCndE341njionskk1pK9SbHqwZh.jpg",
-      "vote": 6.4,
+      "vote": 6.5,
       "genres": [
         "Dramma"
       ],
@@ -176317,7 +176628,7 @@
       "overview": "Ambientata dopo gli eventi di 'The Clone Wars', Maul progetta di ricostruire il suo sindacato criminale su un pianeta non toccato dall'Impero. Lì, incrocia il cammino di una giovane Padawan Jedi disillusa, che potrebbe essere l'apprendista che cerca, e che lo aiuterà nella sua implacabile ricerca di vendetta.",
       "poster": "https://image.tmdb.org/t/p/w342/cCUQAclLHCDQH6nduHwuqMdezmm.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/5SrsdKcN9Flvccq59sIfJbhq1Fk.jpg",
-      "vote": 8.2,
+      "vote": 8.1,
       "genres": [
         "Action & Adventure",
         "Animazione",
@@ -179487,7 +179798,7 @@
       "overview": "",
       "poster": "https://image.tmdb.org/t/p/w342/rq3Zj093CdVXT47JeDfhGb6ogxQ.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/b9nrdh1VaspBckmaDwftW4mcOyC.jpg",
-      "vote": 8.0,
+      "vote": 8.1,
       "genres": [
         "Crime",
         "Dramma",
@@ -180274,7 +180585,7 @@
       "overview": "In seguito all’esplosione di una casa, scompare una bambina. Una vicina preoccupata si mette sulle sue tracce insieme a un’investigatrice privata. Man mano che i segreti vengono a galla, ed emerge una cospirazione militare, la tranquilla South Oxford diventa un campo di battaglia.",
       "poster": "https://image.tmdb.org/t/p/w342/pjmQbrJ3FesJobbqCnUwBCtfcvH.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/tyg0VQBKUT1DAWydrhk9Rtyvzs3.jpg",
-      "vote": 6.9,
+      "vote": 6.8,
       "genres": [
         "Dramma",
         "Mistero",
@@ -180783,7 +181094,7 @@
       "overview": "Dopo mille anni un genio strampalato torna per esaudire i desideri di una donna che non prova sentimenti. Riuscirà con la sua magia a donarle amore e un senso di meraviglia?",
       "poster": "https://image.tmdb.org/t/p/w342/zq84x5kmwomvmmJ03hzl389UGeb.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/2ds9EWX7cwGfZiRjYqhyw7SbzsW.jpg",
-      "vote": 7.6,
+      "vote": 7.5,
       "genres": [
         "Sci-Fi & Fantasy",
         "Commedia",
@@ -180858,7 +181169,7 @@
       "overview": "Otto anni dopo un errore che ha distrutto la sua carriera nel football universitario, il quarterback Russ Holliday vuole tornare in campo. Si unisce ai South Georgia Catfish sotto le mentite spoglie di Chad Powers, talento eccentrico e imprevedibile.",
       "poster": "https://image.tmdb.org/t/p/w342/wgMS8irQKfMrR6mJhKtK6vbxDTC.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/lu4HO4kJx2aZzVgjoRcF9vYPaFI.jpg",
-      "vote": 8.1,
+      "vote": 8.0,
       "genres": [
         "Commedia"
       ],
@@ -181279,7 +181590,7 @@
       "overview": "Una madre single si trasferisce nell'hotel occupato dal fantasma bonario del fratello defunto da cui lo ha ereditato e da ospiti esigenti che non se ne andranno mai.",
       "poster": "https://image.tmdb.org/t/p/w342/zzqSsUOLgjo8PGHbtlMCS1THTtz.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/qQ4tWKwP5wPRyZGxXkiSkKYqzgm.jpg",
-      "vote": 7.9,
+      "vote": 8.0,
       "genres": [
         "Animazione",
         "Commedia"
@@ -183291,7 +183602,7 @@
       "overview": "Alcuni anni prima degli eventi di The Terminal List, i Navy SEAL Ben Edwards (Taylor Kitsch) e Raife Hastings (Tom Hopper) si ritrovano coinvolti in una cospirazione di spionaggio internazionale mentre lavorano per la CIA. Ma nelle operazioni segrete nessuno ne esce indenne. Non si perdono solo vite. A volte, si perde anche l'anima.",
       "poster": "https://image.tmdb.org/t/p/w342/6wLeaoq4nSex3Yqza2WiBxKXiFf.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/yQw23xxmVBFVHPCF6V68TAIIfno.jpg",
-      "vote": 7.4,
+      "vote": 7.5,
       "genres": [
         "Action & Adventure",
         "Dramma"
@@ -184912,7 +185223,7 @@
       "overview": "Quando la ragazza alla pari dei vicini sparisce dal suo quartiere benestante, Cecilie cerca risposte e scopre segreti che mandano in frantumi il suo mondo all'apparenza perfetto.",
       "poster": "https://image.tmdb.org/t/p/w342/q3AoY0DAiVIqAuNK74UZMyrgQP4.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/c8bp3lqchYLY7Y14uBXRmCPukUo.jpg",
-      "vote": 6.7,
+      "vote": 6.6,
       "genres": [
         "Dramma",
         "Crime"
@@ -185748,7 +186059,7 @@
       "overview": "Dopo che Molly Kochan riceve la diagnosi di un tumore al seno metastatico al quarto stadio, decide di lasciare suo marito per esplorare la complessità dei suoi desideri sessuali per la prima volta nella sua vita, con la sua migliore amica Nikki al suo fianco.",
       "poster": "https://image.tmdb.org/t/p/w342/xaKb3cTh8mT6fgLSXuqo4JoS0dU.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/bVgcsQddGZ71kTXGrFJOn1fDEZj.jpg",
-      "vote": 6.6,
+      "vote": 6.5,
       "genres": [
         "Dramma",
         "Commedia"
@@ -192164,7 +192475,7 @@
       "overview": "In questa serie ambientata negli anni '80, una ragazza dall'animo gentile si trasforma in una sanguinosa wrestler che ama le zuffe caotiche e diventa la nemica dell'intera nazione.",
       "poster": "https://image.tmdb.org/t/p/w342/8xtxK4BKsF2PDnDhVO09x4xo3B9.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/bWe8d6d1qE0OmwCtsmQ78AgfsRm.jpg",
-      "vote": 6.8,
+      "vote": 7.4,
       "genres": [
         "Dramma"
       ],
@@ -196690,7 +197001,7 @@
       "overview": "Questa è la storia ispirata a fatti realmente accaduti di come Rocco Siffredi ha lasciato la vita in provincia per diventare la più grande pornostar al mondo.",
       "poster": "https://image.tmdb.org/t/p/w342/aZrdCklOUe4nQ1sbH3j2WjMXGIe.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/3zEl5KzXhjeC8naTwFpBrxGKXQj.jpg",
-      "vote": 6.7,
+      "vote": 6.8,
       "genres": [
         "Dramma"
       ],
@@ -202145,6 +202456,10 @@
         {
           "n": 2,
           "episodes": 8
+        },
+        {
+          "n": 3,
+          "episodes": 1
         }
       ]
     },
@@ -204321,6 +204636,10 @@
         {
           "n": 2,
           "episodes": 6
+        },
+        {
+          "n": 3,
+          "episodes": 0
         }
       ]
     },
@@ -206220,9 +206539,9 @@
       "tmdb_id": 114922,
       "title": "Citadel",
       "year": 2023,
-      "overview": "Otto anni fa Citadel, agenzia di spionaggio indipendente, è stata distrutta da una nuova organizzazione, Manticore. Gli agenti Mason Kane (Richard Madden) e Nadia Sinh (Priyanka Chopra Jonas), a cui hanno eliminato i ricordi, si sono salvati a stento. Otto anni dopo un ex collega di Mason, Bernard Orlick (Stanley Tucci), gli chiede aiuto per impedire che Manticore crei un nuovo ordine mondiale.",
-      "poster": "https://image.tmdb.org/t/p/w342/rIuJpbBcZjROIqvu9OKr3psP0zv.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/9lcGnCxpg6wzrFzPzglEXVBBeNI.jpg",
+      "overview": "Otto anni fa Citadel, agenzia di spionaggio indipendente, è stata distrutta da una nuova organizzazione, Manticore. Gli agenti Mason Kane e Nadia Sinh, a cui hanno eliminato i ricordi, si sono salvati a stento. Otto anni dopo un ex collega di Mason, Bernard Orlick, gli chiede aiuto per impedire che Manticore crei un nuovo ordine mondiale.",
+      "poster": "https://image.tmdb.org/t/p/w342/5MHtxPEfmN4b0rHzfEZRcm6v9WI.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/mce2ZupMnD6fmIT5AcpriP3zNTA.jpg",
       "vote": 6.8,
       "genres": [
         "Dramma",
@@ -211231,7 +211550,7 @@
       "overview": "Taekrok, un vecchio detective vicino alla pensione, riceve una telefonata minatoria da uno sconosciuto e viene ingiustamente accusato di omicidio. Il ricattatore si definisce un amico e propone un gioco. Ordina a Taekrok di riesaminare i vecchi casi di cui si è occupato. L’anziano detective cerca di ricordare disperatamente il passato per scoprire chi è il ricattatore e quali sono le sue intenzioni. Riuscirà Taekrok a finire questo gioco mozzafiato?",
       "poster": "https://image.tmdb.org/t/p/w342/zh0SUmhPLWCUHpY2N5gq8lspfKH.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/gDyrrcqa4Gt8fYq4Cw7IBwBplcQ.jpg",
-      "vote": 6.4,
+      "vote": 6.3,
       "genres": [
         "Dramma",
         "Crime",
@@ -228446,6 +228765,10 @@
         {
           "n": 3,
           "episodes": 8
+        },
+        {
+          "n": 4,
+          "episodes": 0
         }
       ]
     },
@@ -248495,7 +248818,7 @@
       "seasons": [
         {
           "n": 0,
-          "episodes": 66
+          "episodes": 67
         },
         {
           "n": 1,
@@ -249095,7 +249418,7 @@
       "year": 2018,
       "overview": "",
       "poster": "https://image.tmdb.org/t/p/w342/uq6BDWa8sVpPcQlK8wQ24ToWC0J.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/oY9pQ1plq9CqRYaezdTECmgi429.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/lqcjN3LffD8BTwsWmFinlGAPdyK.jpg",
       "vote": 7.8,
       "genres": [
         "Dramma"
@@ -250656,8 +250979,8 @@
       "title": "The Terror",
       "year": 2018,
       "overview": "Adattamento del romanzo omonimo di Dan Simmons, la serie drammatica a sfondo horror è di tipo antologico e ogni stagione racconta di una nuova storia con nuovi personaggi.",
-      "poster": "https://image.tmdb.org/t/p/w342/bKkOcso0YuCBK7dixkn3VSd0dUr.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/ssyZgYScV9eClakZDwu4sPrgMmy.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/2nMZzKlMj158RVb6tjmIunoaNdo.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/9cahMsmh0QCyZzhiTjOLk8ABhJo.jpg",
       "vote": 7.3,
       "genres": [
         "Mistero",
@@ -253073,7 +253396,7 @@
       "overview": "Zoey Johnson va al college e inizia il suo esilarante viaggio verso l'età adulta, ma scopre presto che non tutto va per il verso giusto una volta che lascia il nido.",
       "poster": "https://image.tmdb.org/t/p/w342/nq09OaG43ZESp8uwdkFEBC7iFbk.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/6kFHosHtE5cUYt2Jq4DuSPYYz2t.jpg",
-      "vote": 7.9,
+      "vote": 7.8,
       "genres": [
         "Commedia"
       ],
@@ -256885,7 +257208,7 @@
       "overview": "La serie è un prequel del film, con protagonista un Flint studente delle superiori, ancora alle prese con strambe invenzioni che non sempre funzionano come dovrebbero, causando spesso molti guai a lui e all'intera città di Swallow Marina.\n\nNella serie, Sam appare come sua amica e nuova studentessa di Swallow Marina, ma Flint specifica nel primo episodio che quando Sam se ne andrà dall'isola lui cancellerà la memoria ad entrambi con un macchinario, in modo che non diventino tristi per aver perso un'amicizia; questo rivela quindi perché nel film non si conoscano.",
       "poster": "https://image.tmdb.org/t/p/w342/q41n9xD3Gcrv4PyT8NsMGVOOUyh.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/o8n0xUIvt9RuljzavmKXmDmxl0.jpg",
-      "vote": 5.9,
+      "vote": 6.0,
       "genres": [
         "Animazione",
         "Kids",
@@ -269140,7 +269463,7 @@
       "year": 2013,
       "overview": "Mr. Selfridge (o Mr Selfridge - Il negozio dei sogni) racconta la storia della vita reale dello sgargiante e visionario fondatore americano di Selfridge's, il sontuoso grande magazzino di Londra. Ambientato nella Londra del 1909, quando le donne si stavano godendo un nuovo senso di libertà e modernità, segue Harry Gordon Selfridge ('Mile a Minute Harry'), un uomo con la missione di rendere lo shopping emozionante quanto il sesso. Pioniere e sconsiderato, con un'energia quasi maniacale, Harry ha creato un teatro di vendita al dettaglio in cui veniva mostrato qualsiasi argomento o tendenza che fosse nuovo, eccitante, divertente - o semplicemente eccentrico.",
       "poster": "https://image.tmdb.org/t/p/w342/ah3mvU9jI8yJx72FphtGyLkRmKz.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/oGNExSpm08lTWoLo6FmZlGDAimD.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/yLImdZqAv3aFbZbgUIVatVDiQFf.jpg",
       "vote": 6.9,
       "genres": [
         "Dramma"
@@ -272290,7 +272613,7 @@
       "seasons": [
         {
           "n": 0,
-          "episodes": 99
+          "episodes": 101
         },
         {
           "n": 1,
@@ -278757,7 +279080,7 @@
       "overview": "La giovane e brillante neoavvocatessa Ellen Parsons è richiesta dai migliori studi legali di New York. Lei, però, desidera lavorare per Patty Hewes, un legale leggendario, esperto in casi miliardari e temuto da tutte le grandi multinazionali.",
       "poster": "https://image.tmdb.org/t/p/w342/bowEbW8Q3Oc02BvHBKTL5gWv9Nx.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/lAsz5DYQpXcOONSVuZdZIrtZoIv.jpg",
-      "vote": 7.4,
+      "vote": 7.5,
       "genres": [
         "Mistero",
         "Dramma",
@@ -280446,7 +280769,7 @@
         },
         {
           "n": 22,
-          "episodes": 12
+          "episodes": 15
         }
       ]
     },
