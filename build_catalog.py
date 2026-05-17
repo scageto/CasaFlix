@@ -253,18 +253,24 @@ def build(args) -> int:
         items.sort(key=lambda it: it.get("year") or -1, reverse=True)
         result[kind] = items
 
-    out = {
-        "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        **result,
-    }
+    generated_at = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    out_dir = Path(args.out_dir)
+    out_dir.mkdir(parents=True, exist_ok=True)
 
-    out_path = Path(args.out)
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-    tmp = out_path.with_suffix(out_path.suffix + ".tmp")
-    tmp.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
-    os.replace(tmp, out_path)
-    size_kb = out_path.stat().st_size / 1024
-    print(f"[out] wrote {out_path} ({size_kb:.1f} KB), generated_at={out['generated_at']}")
+    for kind in ("movie", "tv"):
+        fname = "movies.json" if kind == "movie" else "tv.json"
+        path = out_dir / fname
+        payload = {"generated_at": generated_at, "items": result[kind]}
+        tmp = path.with_suffix(path.suffix + ".tmp")
+        tmp.write_text(
+            json.dumps(payload, ensure_ascii=False, separators=(",", ":")),
+            encoding="utf-8",
+        )
+        os.replace(tmp, path)
+        size_kb = path.stat().st_size / 1024
+        print(f"[out] wrote {path} ({size_kb:.1f} KB, {len(result[kind])} items)", flush=True)
+
+    print(f"[out] generated_at={generated_at}", flush=True)
 
     if not args.no_cache:
         save_cache(cache_path, cache)
@@ -274,7 +280,7 @@ def build(args) -> int:
 def main(argv: list[str] | None = None) -> int:
     p = argparse.ArgumentParser(description="Build CasaFlix catalog.json from vixsrc + TMDB")
     p.add_argument("--key", help="TMDB v4 Bearer token (or env TMDB_API_KEY)")
-    p.add_argument("--out", default="data/catalog.json", help="Output JSON path")
+    p.add_argument("--out-dir", default="data", help="Output directory (writes movies.json + tv.json)")
     p.add_argument("--cache", default="data/.cache.json", help="Cache file path")
     p.add_argument("--no-cache", action="store_true", help="Ignore + overwrite cache")
     p.add_argument("--limit", type=int, default=0, help="Process only first N ids per type (dry-run)")

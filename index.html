@@ -138,6 +138,38 @@
       color: var(--text2);
     }
 
+    .filter-bar {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 22px;
+      flex-wrap: wrap;
+    }
+    .filter-group {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      min-width: 150px;
+    }
+    .filter-group label {
+      font-size: 11px;
+      color: var(--text2);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+    }
+    .filter-group select {
+      background: var(--bg3);
+      border: 1px solid rgba(255,255,255,.12);
+      color: #fff;
+      padding: 8px 12px;
+      border-radius: 8px;
+      font-size: 13px;
+      outline: none;
+      cursor: pointer;
+    }
+    .filter-group select:focus { border-color: rgba(255,255,255,.35); }
+    .filter-bar.disabled { opacity: .4; pointer-events: none; }
+
     .grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -342,6 +374,7 @@
       .tabs, main { padding-left: 16px; padding-right: 16px; }
       .grid { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 10px; }
       .search-wrap { max-width: none; flex: 1; }
+      .filter-group { min-width: 0; flex: 1 1 calc(50% - 6px); }
     }
   </style>
 </head>
@@ -366,6 +399,25 @@
   <div class="section-header">
     <span class="section-title" id="section-title">Film disponibili</span>
     <span class="section-count" id="section-count"></span>
+  </div>
+  <div class="filter-bar disabled" id="filter-bar">
+    <div class="filter-group">
+      <label for="filter-genre">Genere</label>
+      <select id="filter-genre"><option value="">Tutti</option></select>
+    </div>
+    <div class="filter-group">
+      <label for="filter-year">Anno</label>
+      <select id="filter-year"><option value="">Tutti</option></select>
+    </div>
+    <div class="filter-group">
+      <label for="filter-sort">Ordina</label>
+      <select id="filter-sort">
+        <option value="year_desc">Anno ↓ (recente)</option>
+        <option value="year_asc">Anno ↑ (vecchio)</option>
+        <option value="vote_desc">Voto ↓ (alto)</option>
+        <option value="vote_asc">Voto ↑ (basso)</option>
+      </select>
+    </div>
   </div>
   <div class="grid" id="grid">
     <div class="state-box">
@@ -401,39 +453,64 @@
 // ─────────────────────────────────────────────────────────
 // STATE
 // ─────────────────────────────────────────────────────────
-let catalogs  = { movie: [], tv: [] };
-let activeTab = 'movie';
+let catalogs   = { movie: [], tv: [] };
+let loaded     = { movie: false, tv: false };
+let loading    = { movie: false, tv: false };
+let activeTab  = 'movie';
 let selectedShow = null;
+let filters    = { movie: defaultFilters(), tv: defaultFilters() };
+
+function defaultFilters() {
+  return { genre: '', year: '', sort: 'year_desc', q: '' };
+}
 
 // ─────────────────────────────────────────────────────────
 // BOOT
 // ─────────────────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', async () => {
-  await loadCatalog();
   document.getElementById('search-input').addEventListener('input', onSearch);
+  document.getElementById('filter-genre').addEventListener('change', onFilterChange);
+  document.getElementById('filter-year').addEventListener('change', onFilterChange);
+  document.getElementById('filter-sort').addEventListener('change', onFilterChange);
   document.getElementById('ep-modal').addEventListener('click', e => {
     if (e.target === e.currentTarget) closeEpModal();
   });
   document.getElementById('ep-season').addEventListener('change', populateEpisodes);
+  await ensureLoaded('movie');
 });
 
 // ─────────────────────────────────────────────────────────
-// CATALOG LOADER
+// CATALOG LOADER (lazy per tab)
 // ─────────────────────────────────────────────────────────
-async function loadCatalog() {
+async function ensureLoaded(type) {
+  if (loaded[type] || loading[type]) return;
+  loading[type] = true;
+  if (activeTab === type) showLoadingState();
   try {
-    const r = await fetch('data/catalog.json', { cache: 'no-cache' });
+    const file = type === 'movie' ? 'data/movies.json' : 'data/tv.json';
+    const r = await fetch(file, { cache: 'no-cache' });
     if (!r.ok) throw new Error('HTTP ' + r.status);
     const data = await r.json();
-    const byYearDesc = (a, b) => (b.year || 0) - (a.year || 0);
-    catalogs.movie = (data.movie || []).map(it => ({ ...it, tmdb_id: String(it.tmdb_id), type: 'movie' })).sort(byYearDesc);
-    catalogs.tv    = (data.tv    || []).map(it => ({ ...it, tmdb_id: String(it.tmdb_id), type: 'tv'    })).sort(byYearDesc);
+    const items = (data.items || []).map(it => ({ ...it, tmdb_id: String(it.tmdb_id), type }));
+    catalogs[type] = items;
+    loaded[type] = true;
   } catch (err) {
-    console.error('Catalog load failed:', err);
-    showCatalogError();
+    console.error('Catalog load failed for', type, err);
+    if (activeTab === type) showCatalogError();
     return;
+  } finally {
+    loading[type] = false;
   }
-  renderCurrentTab();
+  if (activeTab === type) {
+    populateFilterOptions();
+    renderCurrentTab();
+  }
+}
+
+function showLoadingState() {
+  document.getElementById('grid').innerHTML =
+    `<div class="state-box"><div class="spinner"></div><p>Caricamento catalogo…</p></div>`;
+  document.getElementById('section-count').textContent = '';
 }
 
 function showCatalogError() {
@@ -441,7 +518,7 @@ function showCatalogError() {
     '<div class="state-box" style="grid-column:1/-1">' +
     '<p style="font-size:40px">⚠️</p>' +
     '<p style="margin-top:12px;font-weight:600">Catalogo non disponibile</p>' +
-    '<p style="color:var(--text2);margin-top:6px">Rigenera <code>data/catalog.json</code> con <code>build_catalog.py</code>.</p>' +
+    '<p style="color:var(--text2);margin-top:6px">Rigenera con <code>build_catalog.py</code>.</p>' +
     '</div>';
   document.getElementById('section-count').textContent = '';
 }
@@ -458,26 +535,97 @@ function switchTab(type) {
   activeTab = type;
   document.getElementById('tab-movie').classList.toggle('active', type === 'movie');
   document.getElementById('tab-tv').classList.toggle('active', type === 'tv');
-  document.getElementById('search-input').value = '';
+  document.getElementById('search-input').value = filters[type].q;
+  syncFilterControls();
+  if (!loaded[type]) {
+    ensureLoaded(type);
+    showLoadingState();
+    return;
+  }
+  populateFilterOptions();
   renderCurrentTab();
+}
+
+// ─────────────────────────────────────────────────────────
+// FILTERS
+// ─────────────────────────────────────────────────────────
+function syncFilterControls() {
+  const f = filters[activeTab];
+  document.getElementById('filter-genre').value = f.genre;
+  document.getElementById('filter-year').value  = f.year;
+  document.getElementById('filter-sort').value  = f.sort;
+}
+
+function populateFilterOptions() {
+  const items = catalogs[activeTab] || [];
+  const f = filters[activeTab];
+
+  const genres = new Set();
+  const years  = new Set();
+  for (const it of items) {
+    (it.genres || []).forEach(g => g && genres.add(g));
+    if (it.year) years.add(it.year);
+  }
+  const genreList = [...genres].sort((a, b) => a.localeCompare(b, 'it'));
+  const yearList  = [...years].sort((a, b) => b - a);
+
+  const genreSel = document.getElementById('filter-genre');
+  genreSel.innerHTML = '<option value="">Tutti i generi</option>' +
+    genreList.map(g => `<option value="${escH(g)}">${escH(g)}</option>`).join('');
+  if (genreList.includes(f.genre)) genreSel.value = f.genre; else f.genre = '';
+
+  const yearSel = document.getElementById('filter-year');
+  yearSel.innerHTML = '<option value="">Tutti gli anni</option>' +
+    yearList.map(y => `<option value="${y}">${y}</option>`).join('');
+  if (yearList.includes(Number(f.year))) yearSel.value = f.year; else f.year = '';
+
+  document.getElementById('filter-sort').value = f.sort;
+  document.getElementById('filter-bar').classList.remove('disabled');
+}
+
+function onFilterChange() {
+  const f = filters[activeTab];
+  f.genre = document.getElementById('filter-genre').value;
+  f.year  = document.getElementById('filter-year').value;
+  f.sort  = document.getElementById('filter-sort').value;
+  renderCurrentTab();
+}
+
+function applyFilters(items) {
+  const f = filters[activeTab];
+  let out = items;
+  if (f.q) {
+    const q = f.q.toLowerCase();
+    out = out.filter(i => (i.title || '').toLowerCase().includes(q));
+  }
+  if (f.genre) {
+    out = out.filter(i => (i.genres || []).includes(f.genre));
+  }
+  if (f.year) {
+    const y = Number(f.year);
+    out = out.filter(i => i.year === y);
+  }
+  const sortKey = {
+    year_desc: (a, b) => (b.year || 0) - (a.year || 0),
+    year_asc:  (a, b) => (a.year || 0) - (b.year || 0),
+    vote_desc: (a, b) => (b.vote || 0) - (a.vote || 0),
+    vote_asc:  (a, b) => (a.vote || 0) - (b.vote || 0),
+  }[f.sort] || ((a, b) => 0);
+  return [...out].sort(sortKey);
 }
 
 // ─────────────────────────────────────────────────────────
 // RENDER
 // ─────────────────────────────────────────────────────────
 function renderCurrentTab() {
-  const items = catalogs[activeTab] || [];
+  const all = catalogs[activeTab] || [];
   const label = activeTab === 'movie' ? 'Film' : 'Serie TV';
   document.getElementById('section-title').textContent = `${label} disponibili`;
-
-  if (items.length === 0) {
-    document.getElementById('section-count').textContent = '';
-    document.getElementById('grid').innerHTML =
-      `<div class="state-box"><div class="spinner"></div><p>Caricamento…</p></div>`;
+  if (all.length === 0) {
+    showLoadingState();
     return;
   }
-
-  renderGrid(items);
+  renderGrid(applyFilters(all));
 }
 function renderGrid(items) {
   document.getElementById('section-count').textContent = `${items.length} titoli`;
@@ -523,19 +671,12 @@ function renderGrid(items) {
 // SEARCH
 // ─────────────────────────────────────────────────────────
 function onSearch(e) {
-  const q = e.target.value.trim().toLowerCase();
-  const items = catalogs[activeTab];
+  filters[activeTab].q = e.target.value.trim();
   const label = activeTab === 'movie' ? 'Film' : 'Serie TV';
-
-  if (!q) {
-    document.getElementById('section-title').textContent = `${label} disponibili`;
-    renderGrid(items);
-    return;
-  }
-
-  const filtered = items.filter(i => i.title.toLowerCase().includes(q));
-  document.getElementById('section-title').textContent = `Risultati per "${q}"`;
-  renderGrid(filtered);
+  document.getElementById('section-title').textContent =
+    filters[activeTab].q ? `Risultati per "${filters[activeTab].q}"` : `${label} disponibili`;
+  if (!loaded[activeTab]) return;
+  renderGrid(applyFilters(catalogs[activeTab] || []));
 }
 
 // ─────────────────────────────────────────────────────────
