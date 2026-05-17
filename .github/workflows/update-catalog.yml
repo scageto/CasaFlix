@@ -39,10 +39,14 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet -- data/catalog.json; then
+          # Remove the legacy combined file if still present.
+          if [ -f data/catalog.json ]; then
+            git rm -f data/catalog.json
+          fi
+          git add data/movies.json data/tv.json
+          if git diff --cached --quiet; then
             echo "No catalog changes - skipping commit."
             exit 0
           fi
-          git add data/catalog.json
           git commit -m "data: weekly catalog refresh"
           git push
