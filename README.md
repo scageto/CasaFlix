@@ -88,6 +88,9 @@ To enable it on your fork:
 ```bash
 pytest -v
 ```
+## ToDo
+add one more streaming ('film/tv') provider
+add anime section
 
 ## Credits
 
