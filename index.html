@@ -99,6 +99,118 @@
     }
     .icon-btn:hover { background: rgba(255,255,255,.15); }
 
+    .provider-toggle {
+      margin-left: auto;
+      display: inline-flex;
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,255,255,.12);
+      border-radius: 999px;
+      padding: 3px;
+      flex-shrink: 0;
+    }
+    .prov-btn {
+      background: transparent;
+      color: var(--text2);
+      border: 0;
+      padding: 6px 14px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background .15s, color .15s;
+    }
+    .prov-btn:hover { color: #fff; }
+    .prov-btn.active {
+      background: var(--accent);
+      color: #fff;
+    }
+
+    /* ── PLAYER MODAL ─────────────────────────────────────── */
+    .player-modal-bg .player-box {
+      width: min(95vw, 1100px);
+      max-height: 92vh;
+      background: var(--bg2);
+      border-radius: var(--radius);
+      box-shadow: 0 10px 60px rgba(0,0,0,.7);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    .player-title-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 16px;
+      background: var(--bg3);
+      gap: 10px;
+    }
+    .player-title {
+      font-size: 15px;
+      font-weight: 700;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .icon-btn-sm {
+      background: rgba(255,255,255,.08);
+      border: 1px solid rgba(255,255,255,.15);
+      color: #fff;
+      width: 30px;
+      height: 30px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 14px;
+      line-height: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .icon-btn-sm:hover { background: rgba(255,255,255,.18); }
+    .player-iframe-wrap {
+      position: relative;
+      background: #000;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      max-height: 70vh;
+    }
+    .player-iframe-wrap iframe {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+    .player-state {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      color: var(--text2);
+      background: rgba(0,0,0,.85);
+      text-align: center;
+      padding: 20px;
+    }
+    .player-state.hidden { display: none; }
+    .player-state.error  { color: #ff8585; }
+    .player-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 12px 16px;
+      background: var(--bg2);
+      border-top: 1px solid rgba(255,255,255,.06);
+      flex-wrap: wrap;
+    }
+    .player-prov-label {
+      color: var(--text2);
+      font-size: 13px;
+      margin-right: auto;
+    }
+    .player-prov-label strong { color: #fff; }
+
     .tabs {
       display: flex;
       gap: 6px;
@@ -375,6 +487,12 @@
       .grid { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 10px; }
       .search-wrap { max-width: none; flex: 1; }
       .filter-group { min-width: 0; flex: 1 1 calc(50% - 6px); }
+      .provider-toggle { width: 100%; margin-left: 0; justify-content: center; }
+      .prov-btn { flex: 1; }
+      header { flex-wrap: wrap; }
+      .player-iframe-wrap { aspect-ratio: 4 / 3; max-height: 60vh; }
+      .player-actions { flex-direction: column; align-items: stretch; }
+      .player-prov-label { text-align: center; margin-right: 0; }
     }
   </style>
 </head>
@@ -387,6 +505,10 @@
       <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
     </svg>
     <input type="text" id="search-input" placeholder="Cerca film o serie…" autocomplete="off">
+  </div>
+  <div class="provider-toggle" id="provider-toggle" title="Provider primario">
+    <button class="prov-btn active" data-prov="vix" type="button">Vix</button>
+    <button class="prov-btn"        data-prov="vidsrc" type="button">VidSrc</button>
   </div>
 </header>
 
@@ -449,6 +571,28 @@
   </div>
 </div>
 
+<!-- PLAYER MODAL -->
+<div class="modal-bg player-modal-bg" id="player-modal">
+  <div class="player-box">
+    <div class="player-title-bar">
+      <span class="player-title" id="player-title">…</span>
+      <button class="icon-btn-sm" onclick="closePlayer()" type="button" aria-label="Chiudi">✕</button>
+    </div>
+    <div class="player-iframe-wrap">
+      <iframe id="player-iframe" allowfullscreen allow="autoplay; fullscreen; encrypted-media; picture-in-picture" referrerpolicy="no-referrer"></iframe>
+      <div class="player-state" id="player-state">
+        <div class="spinner"></div>
+        <p>Caricamento da <strong id="player-current-prov">Vix</strong>…</p>
+      </div>
+    </div>
+    <div class="player-actions">
+      <span class="player-prov-label">Provider: <strong id="player-prov-name">Vix</strong></span>
+      <button class="btn btn-ghost" onclick="swapProvider()" type="button">↻ Cambia provider</button>
+      <button class="btn btn-primary" onclick="openInNewTab()" type="button">↗ Apri in nuova scheda</button>
+    </div>
+  </div>
+</div>
+
 <script>
 // ─────────────────────────────────────────────────────────
 // STATE
@@ -459,6 +603,23 @@ let loading    = { movie: false, tv: false };
 let activeTab  = 'movie';
 let selectedShow = null;
 let filters    = { movie: defaultFilters(), tv: defaultFilters() };
+let provider   = ['vix','vidsrc'].includes(localStorage.getItem('cf_provider'))
+  ? localStorage.getItem('cf_provider') : 'vix';
+let playerState = null;
+
+const PROVIDERS = {
+  vix: {
+    name: 'Vix',
+    movie: id        => `https://vixsrc.to/movie/${id}?lang=it`,
+    tv:    (id,s,e)  => `https://vixsrc.to/tv/${id}/${s}/${e}?lang=it`,
+  },
+  vidsrc: {
+    name: 'VidSrc',
+    movie: id        => `https://vidsrc-embed.ru/embed/movie?tmdb=${id}&ds_lang=it`,
+    tv:    (id,s,e)  => `https://vidsrc-embed.ru/embed/tv?tmdb=${id}&season=${s}&episode=${e}&ds_lang=it`,
+  },
+};
+const PLAYER_TIMEOUT_MS = 8000;
 
 function defaultFilters() {
   return { genre: '', year: '', sort: 'year_desc', q: '' };
@@ -476,6 +637,14 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (e.target === e.currentTarget) closeEpModal();
   });
   document.getElementById('ep-season').addEventListener('change', populateEpisodes);
+  document.querySelectorAll('.prov-btn').forEach(b => {
+    b.addEventListener('click', () => setProvider(b.dataset.prov));
+  });
+  document.getElementById('player-modal').addEventListener('click', e => {
+    if (e.target === e.currentTarget) closePlayer();
+  });
+  document.getElementById('player-iframe').addEventListener('load', onIframeLoad);
+  setProvider(provider);  // sync UI to saved/default value
   await ensureLoaded('movie');
 });
 
@@ -524,7 +693,7 @@ function showCatalogError() {
 }
 
 document.addEventListener('keydown', e => {
-  if (e.key === 'Escape') closeEpModal();
+  if (e.key === 'Escape') { closeEpModal(); closePlayer(); }
   if (e.key === 'Enter' && document.getElementById('ep-modal').classList.contains('active')) confirmEpisode();
 });
 
@@ -686,13 +855,10 @@ function onCardClick(tmdbId, type) {
   const catalog = catalogs[type] || [];
   const item = catalog.find(i => i.tmdb_id === tmdbId);
   if (!item) return;
-  
+
   if (type === 'movie') {
-    // Apri direttamente in una nuova scheda
-    const url = `https://vixsrc.to/movie/${item.tmdb_id}?lang=it`;
-    window.open(url, '_blank');
+    openPlayer({ kind: 'movie', tmdbId: item.tmdb_id, title: item.title });
   } else {
-    // Per le serie TV, mostra il modal per scegliere stagione/episodio
     openEpModal(item);
   }
 }
@@ -737,10 +903,110 @@ function closeEpModal() {
 function confirmEpisode() {
   if (!selectedShow) return;
   const tmdbId = selectedShow.tmdb_id;
+  const title  = selectedShow.title;
   const s = Math.max(1, parseInt(document.getElementById('ep-season').value) || 1);
   const e = Math.max(1, parseInt(document.getElementById('ep-episode').value) || 1);
   closeEpModal();
-  window.open(`https://vixsrc.to/tv/${tmdbId}/${s}/${e}`, '_blank');
+  openPlayer({ kind: 'tv', tmdbId, season: s, episode: e, title: `${title} — S${s}E${e}` });
+}
+
+// ─────────────────────────────────────────────────────────
+// PROVIDER / PLAYER
+// ─────────────────────────────────────────────────────────
+function setProvider(p) {
+  if (!PROVIDERS[p]) return;
+  provider = p;
+  localStorage.setItem('cf_provider', p);
+  document.querySelectorAll('.prov-btn').forEach(b => {
+    b.classList.toggle('active', b.dataset.prov === p);
+  });
+}
+
+function playerURL(prov, st) {
+  return st.kind === 'movie'
+    ? PROVIDERS[prov].movie(st.tmdbId)
+    : PROVIDERS[prov].tv(st.tmdbId, st.season, st.episode);
+}
+
+function openPlayer(req) {
+  playerState = {
+    kind: req.kind, tmdbId: req.tmdbId, season: req.season, episode: req.episode,
+    title: req.title, currentProv: provider, tried: new Set(), timeoutId: null,
+  };
+  document.getElementById('player-title').textContent = req.title;
+  document.getElementById('player-modal').classList.add('active');
+  loadProvider(provider);
+}
+
+function loadProvider(prov) {
+  if (!playerState) return;
+  playerState.currentProv = prov;
+  playerState.tried.add(prov);
+  document.getElementById('player-prov-name').textContent = PROVIDERS[prov].name;
+  document.getElementById('player-current-prov').textContent = PROVIDERS[prov].name;
+  const state = document.getElementById('player-state');
+  state.classList.remove('hidden', 'error');
+  state.innerHTML = `<div class="spinner"></div><p>Caricamento da <strong>${PROVIDERS[prov].name}</strong>…</p>`;
+
+  if (playerState.timeoutId) clearTimeout(playerState.timeoutId);
+  playerState.timeoutId = setTimeout(() => onProviderTimeout(prov), PLAYER_TIMEOUT_MS);
+
+  const iframe = document.getElementById('player-iframe');
+  iframe.src = 'about:blank';
+  // Use setTimeout to ensure the about:blank assignment doesn't immediately trigger our onload.
+  setTimeout(() => { iframe.src = playerURL(prov, playerState); }, 30);
+}
+
+function onIframeLoad() {
+  if (!playerState) return;
+  const iframe = document.getElementById('player-iframe');
+  if (iframe.src === 'about:blank' || iframe.src === '') return;
+  if (playerState.timeoutId) {
+    clearTimeout(playerState.timeoutId);
+    playerState.timeoutId = null;
+  }
+  // Best-effort load detection: onload fired with non-blank URL.
+  // Cross-origin prevents us from confirming actual content, but the
+  // iframe is now visible — hide the overlay so the user can see it.
+  document.getElementById('player-state').classList.add('hidden');
+}
+
+function onProviderTimeout(prov) {
+  if (!playerState || playerState.currentProv !== prov) return;
+  const other = prov === 'vix' ? 'vidsrc' : 'vix';
+  if (!playerState.tried.has(other)) {
+    console.warn(`[player] ${prov} timed out, trying ${other}`);
+    loadProvider(other);
+  } else {
+    const state = document.getElementById('player-state');
+    state.classList.remove('hidden');
+    state.classList.add('error');
+    state.innerHTML =
+      '<p style="font-size:32px">⚠️</p>' +
+      '<p>Nessun provider risponde. Prova "Apri in nuova scheda".</p>';
+  }
+}
+
+function swapProvider() {
+  if (!playerState) return;
+  const other = playerState.currentProv === 'vix' ? 'vidsrc' : 'vix';
+  // Manual swap: clear "tried" so we re-attempt freely.
+  playerState.tried = new Set();
+  loadProvider(other);
+}
+
+function openInNewTab() {
+  if (!playerState) return;
+  window.open(playerURL(playerState.currentProv, playerState), '_blank');
+}
+
+function closePlayer() {
+  if (!playerState) return;
+  if (playerState.timeoutId) clearTimeout(playerState.timeoutId);
+  playerState = null;
+  const iframe = document.getElementById('player-iframe');
+  iframe.src = 'about:blank';   // stop playback
+  document.getElementById('player-modal').classList.remove('active');
 }
 
 // ─────────────────────────────────────────────────────────
